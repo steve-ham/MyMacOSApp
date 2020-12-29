@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA1107CB259B7DBD00AD43C3 /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1107CA259B7DBD00AD43C3 /* DatePickerVC.swift */; };
+		AA1107CE259B81FC00AD43C3 /* SliderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1107CD259B81FC00AD43C3 /* SliderVC.swift */; };
+		AA1107D1259B836900AD43C3 /* PopUpButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1107D0259B836900AD43C3 /* PopUpButtonVC.swift */; };
 		AA3359EC258E31EE003AA3A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3359EB258E31EE003AA3A3 /* AppDelegate.swift */; };
 		AA3359EE258E31EE003AA3A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3359ED258E31EE003AA3A3 /* ViewController.swift */; };
 		AA3359F0258E31EE003AA3A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3359EF258E31EE003AA3A3 /* Assets.xcassets */; };
 		AA3359F3258E31EE003AA3A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3359F1258E31EE003AA3A3 /* Main.storyboard */; };
+		AA3359FD258E345B003AA3A3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3359FC258E345B003AA3A3 /* ListViewController.swift */; };
+		AA335A00258E36A6003AA3A3 /* TableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3359FF258E36A6003AA3A3 /* TableViewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA1107CA259B7DBD00AD43C3 /* DatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
+		AA1107CD259B81FC00AD43C3 /* SliderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderVC.swift; sourceTree = "<group>"; };
+		AA1107D0259B836900AD43C3 /* PopUpButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpButtonVC.swift; sourceTree = "<group>"; };
 		AA3359E8258E31EE003AA3A3 /* MyMacOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMacOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3359EB258E31EE003AA3A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA3359ED258E31EE003AA3A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +29,8 @@
 		AA3359F2258E31EE003AA3A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA3359F4258E31EE003AA3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA3359F5258E31EE003AA3A3 /* MyMacOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyMacOSApp.entitlements; sourceTree = "<group>"; };
+		AA3359FC258E345B003AA3A3 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		AA3359FF258E36A6003AA3A3 /* TableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,11 @@
 			children = (
 				AA3359EB258E31EE003AA3A3 /* AppDelegate.swift */,
 				AA3359ED258E31EE003AA3A3 /* ViewController.swift */,
+				AA3359FC258E345B003AA3A3 /* ListViewController.swift */,
+				AA3359FF258E36A6003AA3A3 /* TableViewVC.swift */,
+				AA1107CA259B7DBD00AD43C3 /* DatePickerVC.swift */,
+				AA1107CD259B81FC00AD43C3 /* SliderVC.swift */,
+				AA1107D0259B836900AD43C3 /* PopUpButtonVC.swift */,
 				AA3359EF258E31EE003AA3A3 /* Assets.xcassets */,
 				AA3359F1258E31EE003AA3A3 /* Main.storyboard */,
 				AA3359F4258E31EE003AA3A3 /* Info.plist */,
@@ -133,7 +148,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA3359EE258E31EE003AA3A3 /* ViewController.swift in Sources */,
+				AA1107CB259B7DBD00AD43C3 /* DatePickerVC.swift in Sources */,
+				AA335A00258E36A6003AA3A3 /* TableViewVC.swift in Sources */,
+				AA1107D1259B836900AD43C3 /* PopUpButtonVC.swift in Sources */,
+				AA1107CE259B81FC00AD43C3 /* SliderVC.swift in Sources */,
 				AA3359EC258E31EE003AA3A3 /* AppDelegate.swift in Sources */,
+				AA3359FD258E345B003AA3A3 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
