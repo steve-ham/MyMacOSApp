@@ -10,6 +10,7 @@
 		AA1107CB259B7DBD00AD43C3 /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1107CA259B7DBD00AD43C3 /* DatePickerVC.swift */; };
 		AA1107CE259B81FC00AD43C3 /* SliderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1107CD259B81FC00AD43C3 /* SliderVC.swift */; };
 		AA1107D1259B836900AD43C3 /* PopUpButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1107D0259B836900AD43C3 /* PopUpButtonVC.swift */; };
+		AA1107D5259B855700AD43C3 /* ImageViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1107D4259B855700AD43C3 /* ImageViewVC.swift */; };
 		AA3359EC258E31EE003AA3A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3359EB258E31EE003AA3A3 /* AppDelegate.swift */; };
 		AA3359EE258E31EE003AA3A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3359ED258E31EE003AA3A3 /* ViewController.swift */; };
 		AA3359F0258E31EE003AA3A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3359EF258E31EE003AA3A3 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		AA1107CA259B7DBD00AD43C3 /* DatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
 		AA1107CD259B81FC00AD43C3 /* SliderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderVC.swift; sourceTree = "<group>"; };
 		AA1107D0259B836900AD43C3 /* PopUpButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpButtonVC.swift; sourceTree = "<group>"; };
+		AA1107D4259B855700AD43C3 /* ImageViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewVC.swift; sourceTree = "<group>"; };
 		AA3359E8258E31EE003AA3A3 /* MyMacOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMacOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3359EB258E31EE003AA3A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA3359ED258E31EE003AA3A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				AA1107CA259B7DBD00AD43C3 /* DatePickerVC.swift */,
 				AA1107CD259B81FC00AD43C3 /* SliderVC.swift */,
 				AA1107D0259B836900AD43C3 /* PopUpButtonVC.swift */,
+				AA1107D4259B855700AD43C3 /* ImageViewVC.swift */,
 				AA3359EF258E31EE003AA3A3 /* Assets.xcassets */,
 				AA3359F1258E31EE003AA3A3 /* Main.storyboard */,
 				AA3359F4258E31EE003AA3A3 /* Info.plist */,
@@ -150,6 +153,7 @@
 				AA3359EE258E31EE003AA3A3 /* ViewController.swift in Sources */,
 				AA1107CB259B7DBD00AD43C3 /* DatePickerVC.swift in Sources */,
 				AA335A00258E36A6003AA3A3 /* TableViewVC.swift in Sources */,
+				AA1107D5259B855700AD43C3 /* ImageViewVC.swift in Sources */,
 				AA1107D1259B836900AD43C3 /* PopUpButtonVC.swift in Sources */,
 				AA1107CE259B81FC00AD43C3 /* SliderVC.swift in Sources */,
 				AA3359EC258E31EE003AA3A3 /* AppDelegate.swift in Sources */,
