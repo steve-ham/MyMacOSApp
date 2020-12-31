@@ -25,6 +25,12 @@ class TableViewVC: NSViewController, NSTableViewDataSource, NSTableViewDelegate 
         textField.stringValue = ""
     }
     
+    @IBAction private func tapRemoveButton(_ sender: NSButton) {
+        guard !titles.isEmpty else { return }
+        titles.removeLast()
+        tableView.reloadData()
+    }
+    
     // MARK: - NSTableViewDataSource
     
     func numberOfRows(in tableView: NSTableView) -> Int {

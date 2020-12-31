@@ -656,6 +656,25 @@
                                     </items>
                                 </menu>
                             </menuItem>
+                            <menuItem title="MyMenu" id="IML-VZ-KTf">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="MyMenu" autoenablesItems="NO" id="inc-8u-RCO">
+                                    <items>
+                                        <menuItem title="Say Hello" id="QrD-E2-BaA">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="tapMenuItemFromWC:" target="Ady-hI-5gd" id="jb9-kr-boH"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Say Goodbye" identifier="SayGoodbye" id="22I-Y8-EVk">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="tapMenuItemFromSVC:" target="Ady-hI-5gd" id="uG5-pl-FYf"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
                             <menuItem title="Help" id="wpr-3q-Mcd">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
@@ -683,7 +702,7 @@
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
             <objects>
-                <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
+                <windowController id="B8D-0N-5wS" customClass="WindowController" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
                     <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
@@ -704,7 +723,7 @@
         <!--Split View Controller-->
         <scene sceneID="X4a-JV-HTm">
             <objects>
-                <splitViewController id="aEm-Tw-GLk" sceneMemberID="viewController">
+                <splitViewController id="aEm-Tw-GLk" customClass="SplitViewController" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
                     <splitViewItems>
                         <splitViewItem id="PQf-VU-f68"/>
                         <splitViewItem id="Vjf-BV-qdJ"/>
@@ -869,8 +888,8 @@
                                         <rect key="frame" x="206" y="0.0" width="97" height="28"/>
                                         <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="gyT-p4-LpW">
                                             <font key="font" metaFont="system"/>
-                                            <date key="date" timeIntervalSinceReferenceDate="630950093.618415">
-                                                <!--2020-12-29 15:54:53 +0000-->
+                                            <date key="date" timeIntervalSinceReferenceDate="631091074.35272801">
+                                                <!--2020-12-31 07:04:34 +0000-->
                                             </date>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -951,14 +970,31 @@
             </objects>
             <point key="canvasLocation" x="760" y="1781"/>
         </scene>
-        <!--View Controller-->
+        <!--MenuVC-->
         <scene sceneID="SyB-mc-MRP">
             <objects>
-                <viewController id="9Xl-U4-B6z" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MenuVC" id="9Xl-U4-B6z" customClass="MenuVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="4FY-LW-xhi">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="v3G-ZP-FWv">
+                                <rect key="frame" x="207" y="142" width="37" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="9l4-DE-P0T">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="v3G-ZP-FWv" firstAttribute="centerX" secondItem="4FY-LW-xhi" secondAttribute="centerX" id="7LQ-ro-agP"/>
+                            <constraint firstItem="v3G-ZP-FWv" firstAttribute="centerY" secondItem="4FY-LW-xhi" secondAttribute="centerY" id="MT7-0Z-HNc"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="v3G-ZP-FWv" id="3Sl-g9-6Vv"/>
+                    </connections>
                 </viewController>
                 <customObject id="VFB-BJ-fB0" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -969,17 +1005,17 @@
             <objects>
                 <viewController storyboardIdentifier="TableViewVC" id="jQC-FG-UVN" customClass="TableViewVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="wtv-cW-gXQ">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="527" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <scrollView autohidesScrollers="YES" horizontalLineScroll="24" horizontalPageScroll="10" verticalLineScroll="24" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyi-g3-DWU">
-                                <rect key="frame" x="20" y="20" width="410" height="231"/>
+                                <rect key="frame" x="20" y="20" width="487" height="231"/>
                                 <clipView key="contentView" id="ZL0-bv-utA">
-                                    <rect key="frame" x="1" y="1" width="408" height="229"/>
+                                    <rect key="frame" x="1" y="1" width="485" height="229"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="24" rowSizeStyle="automatic" headerView="r9W-EU-K6h" viewBased="YES" id="9K0-vq-69O">
-                                            <rect key="frame" x="0.0" y="0.0" width="408" height="201"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="485" height="201"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <size key="intercellSpacing" width="17" height="0.0"/>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -1017,7 +1053,7 @@
                                                         </tableCellView>
                                                     </prototypeCellViews>
                                                 </tableColumn>
-                                                <tableColumn identifier="Title" width="263" minWidth="40" maxWidth="1000" id="oIa-9n-0GT">
+                                                <tableColumn identifier="Title" width="340" minWidth="40" maxWidth="1000" id="oIa-9n-0GT">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Title">
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -1030,11 +1066,11 @@
                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                     <prototypeCellViews>
                                                         <tableCellView id="3U6-4B-Ab5">
-                                                            <rect key="frame" x="149" y="0.0" width="260" height="24"/>
+                                                            <rect key="frame" x="149" y="0.0" width="337" height="24"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wGu-xH-fYs">
-                                                                    <rect key="frame" x="0.0" y="4" width="260" height="16"/>
+                                                                    <rect key="frame" x="0.0" y="4" width="337" height="16"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="5fv-ud-kst">
                                                                         <font key="font" usesAppearanceFont="YES"/>
@@ -1058,7 +1094,7 @@
                                     </subviews>
                                 </clipView>
                                 <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="ui3-PN-qnE">
-                                    <rect key="frame" x="1" y="214" width="408" height="16"/>
+                                    <rect key="frame" x="1" y="214" width="485" height="16"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="7b7-di-dcG">
@@ -1066,12 +1102,12 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <tableHeaderView key="headerView" wantsLayer="YES" id="r9W-EU-K6h">
-                                    <rect key="frame" x="0.0" y="0.0" width="408" height="28"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="485" height="28"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableHeaderView>
                             </scrollView>
                             <stackView distribution="fill" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qfb-ma-oQl">
-                                <rect key="frame" x="20" y="259" width="410" height="21"/>
+                                <rect key="frame" x="20" y="259" width="487" height="21"/>
                                 <subviews>
                                     <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="csF-4I-YG3">
                                         <rect key="frame" x="0.0" y="0.0" width="357" height="21"/>
@@ -1091,12 +1127,24 @@
                                             <action selector="tapAddButton:" target="jQC-FG-UVN" id="6gw-NJ-ct2"/>
                                         </connections>
                                     </button>
+                                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="LSX-F5-eCR">
+                                        <rect key="frame" x="411" y="-6" width="83" height="32"/>
+                                        <buttonCell key="cell" type="push" title="Remove" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="CPL-Yy-lfI">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="tapRemoveButton:" target="jQC-FG-UVN" id="bmn-a4-tlI"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <visibilityPriorities>
                                     <integer value="1000"/>
                                     <integer value="1000"/>
+                                    <integer value="1000"/>
                                 </visibilityPriorities>
                                 <customSpacing>
+                                    <real value="3.4028234663852886e+38"/>
                                     <real value="3.4028234663852886e+38"/>
                                     <real value="3.4028234663852886e+38"/>
                                 </customSpacing>
