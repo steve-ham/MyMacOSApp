@@ -1000,6 +1000,33 @@
             </objects>
             <point key="canvasLocation" x="766" y="2181"/>
         </scene>
+        <!--Mouse EventsVC-->
+        <scene sceneID="h0R-kE-jTB">
+            <objects>
+                <viewController storyboardIdentifier="MouseEventsVC" id="nOq-qt-aW2" customClass="MouseEventsVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="8eT-69-XhH" customClass="MouseEventsView" customModule="MyMacOSApp" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="abI-Mi-H4y">
+                                <rect key="frame" x="18" y="264" width="37" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="qVA-cG-QQh">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="abI-Mi-H4y" firstAttribute="top" secondItem="8eT-69-XhH" secondAttribute="top" constant="20" symbolic="YES" id="8Fb-2m-Mcs"/>
+                            <constraint firstItem="abI-Mi-H4y" firstAttribute="leading" secondItem="8eT-69-XhH" secondAttribute="leading" constant="20" symbolic="YES" id="XQV-OX-oFg"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="Vkx-7L-sgB" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="765" y="2593"/>
+        </scene>
         <!--Table ViewVC-->
         <scene sceneID="4zz-EB-UKx">
             <objects>

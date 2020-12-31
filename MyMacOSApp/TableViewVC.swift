@@ -16,7 +16,6 @@ class TableViewVC: NSViewController, NSTableViewDataSource, NSTableViewDelegate 
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do view setup here.
     }
     
     @IBAction private func tapAddButton(_ sender: NSButton) {

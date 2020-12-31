@@ -9,7 +9,7 @@ import Cocoa
 
 class ListViewController: NSViewController, NSTableViewDataSource, NSTableViewDelegate {
     
-    private var subjects = ["TableViewVC", "DatePickerVC", "SliderVC", "PopUpButtonVC", "ImageViewVC", "MenuVC", "DragAndDropVC"]
+    private var subjects = ["TableViewVC", "DatePickerVC", "SliderVC", "PopUpButtonVC", "ImageViewVC", "MenuVC", "DragAndDropVC", "MouseEventsVC"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,6 +49,8 @@ class ListViewController: NSViewController, NSTableViewDataSource, NSTableViewDe
         } else if let vc = c as? MenuVC {
             splitViewController.children[1] = vc
         } else if let vc = c as? DragAndDropVC {
+            splitViewController.children[1] = vc
+        } else if let vc = c as? MouseEventsVC {
             splitViewController.children[1] = vc
         }
     }
