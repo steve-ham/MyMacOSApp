@@ -21,7 +21,8 @@
 		AA3359F3258E31EE003AA3A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3359F1258E31EE003AA3A3 /* Main.storyboard */; };
 		AA3359FD258E345B003AA3A3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3359FC258E345B003AA3A3 /* ListViewController.swift */; };
 		AA335A00258E36A6003AA3A3 /* TableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3359FF258E36A6003AA3A3 /* TableViewVC.swift */; };
-		AAC11D8F259E1E3800C73847 /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC11D8E259E1E3800C73847 /* CoreDataViewController.swift */; };
+		AAB160F9259E2B590026410E /* PopoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB160F8259E2B590026410E /* PopoverVC.swift */; };
+		AAC11D8F259E1E3800C73847 /* CoreDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC11D8E259E1E3800C73847 /* CoreDataVC.swift */; };
 		AAC11D93259E1EA900C73847 /* MyMacOSApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAC11D91259E1EA900C73847 /* MyMacOSApp.xcdatamodeld */; };
 		AADA0676259DF8CD00C05961 /* KeyboardEventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADA0675259DF8CD00C05961 /* KeyboardEventsVC.swift */; };
 /* End PBXBuildFile section */
@@ -44,7 +45,8 @@
 		AA3359F5258E31EE003AA3A3 /* MyMacOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyMacOSApp.entitlements; sourceTree = "<group>"; };
 		AA3359FC258E345B003AA3A3 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		AA3359FF258E36A6003AA3A3 /* TableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewVC.swift; sourceTree = "<group>"; };
-		AAC11D8E259E1E3800C73847 /* CoreDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewController.swift; sourceTree = "<group>"; };
+		AAB160F8259E2B590026410E /* PopoverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverVC.swift; sourceTree = "<group>"; };
+		AAC11D8E259E1E3800C73847 /* CoreDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataVC.swift; sourceTree = "<group>"; };
 		AAC11D92259E1EA900C73847 /* MyMacOSApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMacOSApp.xcdatamodel; sourceTree = "<group>"; };
 		AADA0675259DF8CD00C05961 /* KeyboardEventsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardEventsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,7 +94,8 @@
 				AA13CD78259DB8DF0099BC03 /* DragAndDropVC.swift */,
 				AA13CD7C259DC6600099BC03 /* MouseEventsVC.swift */,
 				AADA0675259DF8CD00C05961 /* KeyboardEventsVC.swift */,
-				AAC11D8E259E1E3800C73847 /* CoreDataViewController.swift */,
+				AAC11D8E259E1E3800C73847 /* CoreDataVC.swift */,
+				AAB160F8259E2B590026410E /* PopoverVC.swift */,
 				AAC11D91259E1EA900C73847 /* MyMacOSApp.xcdatamodeld */,
 				AA3359EF258E31EE003AA3A3 /* Assets.xcassets */,
 				AA3359F1258E31EE003AA3A3 /* Main.storyboard */,
@@ -174,7 +177,7 @@
 				AA0EBEE6259C8442003CC713 /* WindowController.swift in Sources */,
 				AA13CD7D259DC6600099BC03 /* MouseEventsVC.swift in Sources */,
 				AA1107CB259B7DBD00AD43C3 /* DatePickerVC.swift in Sources */,
-				AAC11D8F259E1E3800C73847 /* CoreDataViewController.swift in Sources */,
+				AAC11D8F259E1E3800C73847 /* CoreDataVC.swift in Sources */,
 				AA335A00258E36A6003AA3A3 /* TableViewVC.swift in Sources */,
 				AA1107D5259B855700AD43C3 /* ImageViewVC.swift in Sources */,
 				AA1107D1259B836900AD43C3 /* PopUpButtonVC.swift in Sources */,
@@ -185,6 +188,7 @@
 				AAC11D93259E1EA900C73847 /* MyMacOSApp.xcdatamodeld in Sources */,
 				AA1107CE259B81FC00AD43C3 /* SliderVC.swift in Sources */,
 				AA3359EC258E31EE003AA3A3 /* AppDelegate.swift in Sources */,
+				AAB160F9259E2B590026410E /* PopoverVC.swift in Sources */,
 				AA3359FD258E345B003AA3A3 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

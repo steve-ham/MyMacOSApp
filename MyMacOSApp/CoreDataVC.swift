@@ -1,5 +1,5 @@
 //
-//  CoreDataViewController.swift
+//  CoreDataVC.swift
 //  MyMacOSApp
 //
 //  Created by steve.ham on 2020/12/31.
@@ -7,7 +7,7 @@
 
 import Cocoa
 
-class CoreDataViewController: NSViewController {
+class CoreDataVC: NSViewController {
     
     @objc let managedObjectContext = (NSApp.delegate as! AppDelegate).persistentContainer.viewContext
 

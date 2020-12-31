@@ -888,8 +888,8 @@
                                         <rect key="frame" x="206" y="0.0" width="97" height="28"/>
                                         <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="gyT-p4-LpW">
                                             <font key="font" metaFont="system"/>
-                                            <date key="date" timeIntervalSinceReferenceDate="631119261.93587303">
-                                                <!--2020-12-31 14:54:21 +0000-->
+                                            <date key="date" timeIntervalSinceReferenceDate="631122432.13345003">
+                                                <!--2020-12-31 15:47:12 +0000-->
                                             </date>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1322,10 +1322,23 @@
             </objects>
             <point key="canvasLocation" x="266" y="2988"/>
         </scene>
-        <!--Core Data View Controller-->
+        <!--PopoverVC-->
+        <scene sceneID="cHO-cc-5Ni">
+            <objects>
+                <viewController id="aHB-eg-BA9" customClass="PopoverVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="kr3-Pc-gCX">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="B3h-gH-gh1" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="266" y="3368"/>
+        </scene>
+        <!--Core DataVC-->
         <scene sceneID="n9k-Ei-aVh">
             <objects>
-                <viewController storyboardIdentifier="CoreDataViewController" id="s5w-lJ-23g" customClass="CoreDataViewController" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CoreDataViewController" id="s5w-lJ-23g" customClass="CoreDataVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="qgC-yj-JPx">
                         <rect key="frame" x="0.0" y="0.0" width="682" height="423"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1526,8 +1539,8 @@
                                                             <rect key="frame" x="37" y="0.0" width="97" height="28"/>
                                                             <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="KRA-99-w9e">
                                                                 <font key="font" metaFont="system"/>
-                                                                <date key="date" timeIntervalSinceReferenceDate="631119785.561239">
-                                                                    <!--2020-12-31 15:03:05 +0000-->
+                                                                <date key="date" timeIntervalSinceReferenceDate="631122432.18714499">
+                                                                    <!--2020-12-31 15:47:12 +0000-->
                                                                 </date>
                                                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
