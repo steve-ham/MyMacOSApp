@@ -14,6 +14,7 @@
 		AA1107CE259B81FC00AD43C3 /* SliderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1107CD259B81FC00AD43C3 /* SliderVC.swift */; };
 		AA1107D1259B836900AD43C3 /* PopUpButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1107D0259B836900AD43C3 /* PopUpButtonVC.swift */; };
 		AA1107D5259B855700AD43C3 /* ImageViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1107D4259B855700AD43C3 /* ImageViewVC.swift */; };
+		AA13CD79259DB8DF0099BC03 /* DragAndDropVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13CD78259DB8DF0099BC03 /* DragAndDropVC.swift */; };
 		AA3359EC258E31EE003AA3A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3359EB258E31EE003AA3A3 /* AppDelegate.swift */; };
 		AA3359F0258E31EE003AA3A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3359EF258E31EE003AA3A3 /* Assets.xcassets */; };
 		AA3359F3258E31EE003AA3A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3359F1258E31EE003AA3A3 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 		AA1107CD259B81FC00AD43C3 /* SliderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderVC.swift; sourceTree = "<group>"; };
 		AA1107D0259B836900AD43C3 /* PopUpButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpButtonVC.swift; sourceTree = "<group>"; };
 		AA1107D4259B855700AD43C3 /* ImageViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewVC.swift; sourceTree = "<group>"; };
+		AA13CD78259DB8DF0099BC03 /* DragAndDropVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropVC.swift; sourceTree = "<group>"; };
 		AA3359E8258E31EE003AA3A3 /* MyMacOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMacOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3359EB258E31EE003AA3A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA3359EF258E31EE003AA3A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				AA1107D0259B836900AD43C3 /* PopUpButtonVC.swift */,
 				AA1107D4259B855700AD43C3 /* ImageViewVC.swift */,
 				AA0EBEE2259C8062003CC713 /* MenuVC.swift */,
+				AA13CD78259DB8DF0099BC03 /* DragAndDropVC.swift */,
 				AA3359EF258E31EE003AA3A3 /* Assets.xcassets */,
 				AA3359F1258E31EE003AA3A3 /* Main.storyboard */,
 				AA3359F4258E31EE003AA3A3 /* Info.plist */,
@@ -162,6 +165,7 @@
 				AA1107D5259B855700AD43C3 /* ImageViewVC.swift in Sources */,
 				AA1107D1259B836900AD43C3 /* PopUpButtonVC.swift in Sources */,
 				AA0EBEEC259C8744003CC713 /* SplitViewController.swift in Sources */,
+				AA13CD79259DB8DF0099BC03 /* DragAndDropVC.swift in Sources */,
 				AA0EBEE3259C8062003CC713 /* MenuVC.swift in Sources */,
 				AA1107CE259B81FC00AD43C3 /* SliderVC.swift in Sources */,
 				AA3359EC258E31EE003AA3A3 /* AppDelegate.swift in Sources */,

@@ -1237,5 +1237,33 @@
             </objects>
             <point key="canvasLocation" x="264" y="2182"/>
         </scene>
+        <!--Drag And DropVC-->
+        <scene sceneID="vky-a5-m4I">
+            <objects>
+                <viewController storyboardIdentifier="DragAndDropVC" id="Oh1-6y-IHl" customClass="DragAndDropVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="LKA-ut-wH0">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ket-Ky-RAj" customClass="DragAndDropImageView" customModule="MyMacOSApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="450" id="Pd0-Yb-06E"/>
+                                </constraints>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="NIs-ZZ-Pll"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Ket-Ky-RAj" secondAttribute="bottom" id="FrJ-6e-jDR"/>
+                            <constraint firstItem="Ket-Ky-RAj" firstAttribute="leading" secondItem="LKA-ut-wH0" secondAttribute="leading" id="eVG-9o-VnY"/>
+                            <constraint firstAttribute="trailing" secondItem="Ket-Ky-RAj" secondAttribute="trailing" id="lX5-VV-WS3"/>
+                            <constraint firstItem="Ket-Ky-RAj" firstAttribute="top" secondItem="LKA-ut-wH0" secondAttribute="top" id="o2G-a3-C0o"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="fAb-dw-cec" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="266" y="2593"/>
+        </scene>
     </scenes>
 </document>
