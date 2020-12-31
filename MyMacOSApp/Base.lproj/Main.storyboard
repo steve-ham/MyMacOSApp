@@ -888,8 +888,8 @@
                                         <rect key="frame" x="206" y="0.0" width="97" height="28"/>
                                         <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="gyT-p4-LpW">
                                             <font key="font" metaFont="system"/>
-                                            <date key="date" timeIntervalSinceReferenceDate="631091074.35272801">
-                                                <!--2020-12-31 07:04:34 +0000-->
+                                            <date key="date" timeIntervalSinceReferenceDate="631109843.70215905">
+                                                <!--2020-12-31 12:17:23 +0000-->
                                             </date>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1291,6 +1291,36 @@
                 <customObject id="fAb-dw-cec" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="266" y="2593"/>
+        </scene>
+        <!--Keyboard EventsVC-->
+        <scene sceneID="0wd-jF-QSd">
+            <objects>
+                <viewController storyboardIdentifier="KeyboardEventsVC" id="QWE-Ru-Lz0" customClass="KeyboardEventsVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="KSG-AJ-GVx" customClass="KeyboardEventsView" customModule="MyMacOSApp" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2eg-76-cqE">
+                                <rect key="frame" x="207" y="142" width="37" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="hao-Bx-tP9">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="2eg-76-cqE" firstAttribute="centerY" secondItem="KSG-AJ-GVx" secondAttribute="centerY" id="6DF-zz-ZZe"/>
+                            <constraint firstItem="2eg-76-cqE" firstAttribute="centerX" secondItem="KSG-AJ-GVx" secondAttribute="centerX" id="xc5-Pq-80F"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="label" destination="2eg-76-cqE" id="9vU-dN-nnL"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <customObject id="FSD-dO-PGR" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="266" y="2988"/>
         </scene>
     </scenes>
 </document>

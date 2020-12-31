@@ -21,6 +21,7 @@
 		AA3359F3258E31EE003AA3A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3359F1258E31EE003AA3A3 /* Main.storyboard */; };
 		AA3359FD258E345B003AA3A3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3359FC258E345B003AA3A3 /* ListViewController.swift */; };
 		AA335A00258E36A6003AA3A3 /* TableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3359FF258E36A6003AA3A3 /* TableViewVC.swift */; };
+		AADA0676259DF8CD00C05961 /* KeyboardEventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADA0675259DF8CD00C05961 /* KeyboardEventsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		AA3359F5258E31EE003AA3A3 /* MyMacOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyMacOSApp.entitlements; sourceTree = "<group>"; };
 		AA3359FC258E345B003AA3A3 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		AA3359FF258E36A6003AA3A3 /* TableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewVC.swift; sourceTree = "<group>"; };
+		AADA0675259DF8CD00C05961 /* KeyboardEventsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardEventsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				AA0EBEE2259C8062003CC713 /* MenuVC.swift */,
 				AA13CD78259DB8DF0099BC03 /* DragAndDropVC.swift */,
 				AA13CD7C259DC6600099BC03 /* MouseEventsVC.swift */,
+				AADA0675259DF8CD00C05961 /* KeyboardEventsVC.swift */,
 				AA3359EF258E31EE003AA3A3 /* Assets.xcassets */,
 				AA3359F1258E31EE003AA3A3 /* Main.storyboard */,
 				AA3359F4258E31EE003AA3A3 /* Info.plist */,
@@ -168,6 +171,7 @@
 				AA335A00258E36A6003AA3A3 /* TableViewVC.swift in Sources */,
 				AA1107D5259B855700AD43C3 /* ImageViewVC.swift in Sources */,
 				AA1107D1259B836900AD43C3 /* PopUpButtonVC.swift in Sources */,
+				AADA0676259DF8CD00C05961 /* KeyboardEventsVC.swift in Sources */,
 				AA0EBEEC259C8744003CC713 /* SplitViewController.swift in Sources */,
 				AA13CD79259DB8DF0099BC03 /* DragAndDropVC.swift in Sources */,
 				AA0EBEE3259C8062003CC713 /* MenuVC.swift in Sources */,
