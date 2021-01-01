@@ -10,8 +10,30 @@ import Cocoa
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
     
+    private let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
+    // Info.plist Application is agent: YES -> Set no app from dock
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        statusItem.button?.title = "MyMacOSApp"
+        statusItem.menu = NSMenu()
+        let menuItem = NSMenuItem(title: "Show Popover", action: #selector(clickShowPopover), keyEquivalent: "")
+        statusItem.menu?.addItem(menuItem)
+        
+        let quitItem = NSMenuItem(title: "Quit", action: #selector(clickQuit), keyEquivalent: "")
+        statusItem.menu?.addItem(quitItem)
+    }
+    
+    @objc private func clickShowPopover(_ menuItem: NSMenuItem) {
+        let storyboard = NSStoryboard(name: NSStoryboard.Name("Main"), bundle: nil)
+        guard let vc = storyboard.instantiateController(withIdentifier: "StatusBarVC") as? StatusBarVC else { return }
+        let popoverView = NSPopover()
+        popoverView.contentViewController = vc
+        popoverView.behavior = .transient
+        popoverView.show(relativeTo: statusItem.button!.bounds, of: statusItem.button!, preferredEdge: .maxY)
+    }
+    
+    @objc private func clickQuit(_ menuItem: NSMenuItem) {
+        NSApp.terminate(nil)
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

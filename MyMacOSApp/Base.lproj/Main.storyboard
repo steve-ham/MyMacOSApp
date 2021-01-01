@@ -1672,5 +1672,32 @@
             </objects>
             <point key="canvasLocation" x="881" y="3050"/>
         </scene>
+        <!--Status BarVC-->
+        <scene sceneID="UY5-5D-gNG">
+            <objects>
+                <viewController storyboardIdentifier="StatusBarVC" id="NxK-Pm-e33" customClass="StatusBarVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="X1m-nU-Im4">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="WKR-zx-aEW">
+                                <rect key="frame" x="162" y="142" width="127" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Status Item Popover" id="Pe2-ko-ZDv">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="WKR-zx-aEW" firstAttribute="centerY" secondItem="X1m-nU-Im4" secondAttribute="centerY" id="UKQ-Fu-mHs"/>
+                            <constraint firstItem="WKR-zx-aEW" firstAttribute="centerX" secondItem="X1m-nU-Im4" secondAttribute="centerX" id="rSa-0o-0o4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="vnr-dy-bOJ" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="774" y="3491"/>
+        </scene>
     </scenes>
 </document>
