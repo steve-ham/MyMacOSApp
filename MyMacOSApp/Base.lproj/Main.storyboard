@@ -888,8 +888,8 @@
                                         <rect key="frame" x="206" y="0.0" width="97" height="28"/>
                                         <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="gyT-p4-LpW">
                                             <font key="font" metaFont="system"/>
-                                            <date key="date" timeIntervalSinceReferenceDate="631181808.544855">
-                                                <!--2021-01-01 08:16:48 +0000-->
+                                            <date key="date" timeIntervalSinceReferenceDate="631191152.85319495">
+                                                <!--2021-01-01 10:52:32 +0000-->
                                             </date>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1378,6 +1378,35 @@
             </objects>
             <point key="canvasLocation" x="166" y="3675"/>
         </scene>
+        <!--AlertVC-->
+        <scene sceneID="9Qb-JQ-lGS">
+            <objects>
+                <viewController storyboardIdentifier="AlertVC" id="akr-eS-mNQ" customClass="AlertVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="QEF-RQ-rPn">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="JNv-Wy-3G3">
+                                <rect key="frame" x="175" y="133" width="100" height="32"/>
+                                <buttonCell key="cell" type="push" title="Show Alert" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gri-dZ-TVb">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="clickShowAlertButton:" target="akr-eS-mNQ" id="eG7-7e-E5Q"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="JNv-Wy-3G3" firstAttribute="centerX" secondItem="QEF-RQ-rPn" secondAttribute="centerX" id="96L-DW-pDP"/>
+                            <constraint firstItem="JNv-Wy-3G3" firstAttribute="centerY" secondItem="QEF-RQ-rPn" secondAttribute="centerY" id="WLt-fa-yZq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="dmc-mk-73W" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="266" y="4017"/>
+        </scene>
         <!--Core DataVC-->
         <scene sceneID="n9k-Ei-aVh">
             <objects>
@@ -1582,8 +1611,8 @@
                                                             <rect key="frame" x="37" y="0.0" width="97" height="28"/>
                                                             <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="KRA-99-w9e">
                                                                 <font key="font" metaFont="system"/>
-                                                                <date key="date" timeIntervalSinceReferenceDate="631181808.61000597">
-                                                                    <!--2021-01-01 08:16:48 +0000-->
+                                                                <date key="date" timeIntervalSinceReferenceDate="631191152.905128">
+                                                                    <!--2021-01-01 10:52:32 +0000-->
                                                                 </date>
                                                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
