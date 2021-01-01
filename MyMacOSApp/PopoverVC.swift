@@ -14,4 +14,12 @@ class PopoverVC: NSViewController {
         // Do view setup here.
     }
     
+    @IBAction private func clickShowPopover(_ button: NSButton) {
+        let vc = NSStoryboard(name: "Main", bundle: .main).instantiateController(withIdentifier: "Popover") as! NSViewController
+        
+        let popover = NSPopover()
+        popover.behavior = .transient
+        popover.contentViewController = vc
+        popover.show(relativeTo: button.bounds, of: button, preferredEdge: .maxX)
+    }
 }

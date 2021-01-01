@@ -18,13 +18,13 @@ class TableViewVC: NSViewController, NSTableViewDataSource, NSTableViewDelegate 
         super.viewDidLoad()
     }
     
-    @IBAction private func tapAddButton(_ sender: NSButton) {
+    @IBAction private func clickAddButton(_ sender: NSButton) {
         titles.append(textField.stringValue)
         tableView.reloadData()
         textField.stringValue = ""
     }
     
-    @IBAction private func tapRemoveButton(_ sender: NSButton) {
+    @IBAction private func clickRemoveButton(_ sender: NSButton) {
         guard !titles.isEmpty else { return }
         titles.removeLast()
         tableView.reloadData()

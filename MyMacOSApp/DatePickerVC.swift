@@ -14,7 +14,7 @@ class DatePickerVC: NSViewController {
         // Do view setup here.
     }
     
-    @IBAction private func tapDatePicker(_ sender: NSDatePicker) {
-        print("hsteve tapDatePicker \(sender.dateValue)")
+    @IBAction private func clickDatePicker(_ sender: NSDatePicker) {
+        print("hsteve clickDatePicker \(sender.dateValue)")
     }
 }

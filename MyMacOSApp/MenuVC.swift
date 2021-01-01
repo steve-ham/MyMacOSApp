@@ -16,7 +16,7 @@ class MenuVC: NSViewController {
         // Do view setup here.
     }
     
-    func tapMenuItemFromWC() {
+    func clickMenuItemFromWC() {
         label.stringValue = "Hello"
     }
 }

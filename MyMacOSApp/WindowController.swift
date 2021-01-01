@@ -14,10 +14,10 @@ class WindowController: NSWindowController, NSWindowDelegate {
         window?.delegate = self
     }
     
-    @IBAction private func tapMenuItemFromWC(_ menuItem: NSMenuItem) {
+    @IBAction private func clickMenuItemFromWC(_ menuItem: NSMenuItem) {
         if let svc = contentViewController as? NSSplitViewController {
             if let vc = svc.children[1] as? MenuVC {
-                vc.tapMenuItemFromWC()
+                vc.clickMenuItemFromWC()
             }
         }
     }

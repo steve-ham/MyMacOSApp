@@ -14,7 +14,7 @@ class SplitViewController: NSSplitViewController {
         // Do view setup here.
     }
     
-    @IBAction private func tapMenuItemFromSVC(_ menuItem: NSMenuItem) {
+    @IBAction private func clickMenuItemFromSVC(_ menuItem: NSMenuItem) {
         // Need to make Auto Enable Items of Menu off
         NSApplication.shared.mainMenu?.items.forEach({ menuItem in
             if menuItem.title == "MyMenu" {

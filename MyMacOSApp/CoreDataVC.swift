@@ -16,7 +16,7 @@ class CoreDataVC: NSViewController {
         // Do view setup here.
     }
     
-    @IBAction private func tapUndoButton(_ sender: NSButton) {
+    @IBAction private func clickUndoButton(_ sender: NSButton) {
         managedObjectContext.undo()
     }
 }

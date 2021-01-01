@@ -663,13 +663,13 @@
                                         <menuItem title="Say Hello" id="QrD-E2-BaA">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
-                                                <action selector="tapMenuItemFromWC:" target="Ady-hI-5gd" id="jb9-kr-boH"/>
+                                                <action selector="clickMenuItemFromWC:" target="Ady-hI-5gd" id="jb9-kr-boH"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem title="Say Goodbye" identifier="SayGoodbye" id="22I-Y8-EVk">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
-                                                <action selector="tapMenuItemFromSVC:" target="Ady-hI-5gd" id="uG5-pl-FYf"/>
+                                                <action selector="clickMenuItemFromSVC:" target="Ady-hI-5gd" id="uG5-pl-FYf"/>
                                             </connections>
                                         </menuItem>
                                     </items>
@@ -888,14 +888,14 @@
                                         <rect key="frame" x="206" y="0.0" width="97" height="28"/>
                                         <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="gyT-p4-LpW">
                                             <font key="font" metaFont="system"/>
-                                            <date key="date" timeIntervalSinceReferenceDate="631122432.13345003">
-                                                <!--2020-12-31 15:47:12 +0000-->
+                                            <date key="date" timeIntervalSinceReferenceDate="631181808.544855">
+                                                <!--2021-01-01 08:16:48 +0000-->
                                             </date>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                         </datePickerCell>
                                         <connections>
-                                            <action selector="tapDatePicker:" target="elp-vO-sgg" id="jdr-R9-OsM"/>
+                                            <action selector="clickDatePicker:" target="elp-vO-sgg" id="jdr-R9-OsM"/>
                                         </connections>
                                     </datePicker>
                                 </subviews>
@@ -1151,7 +1151,7 @@
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="tapAddButton:" target="jQC-FG-UVN" id="6gw-NJ-ct2"/>
+                                            <action selector="clickAddButton:" target="jQC-FG-UVN" id="6gw-NJ-ct2"/>
                                         </connections>
                                     </button>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="LSX-F5-eCR">
@@ -1161,7 +1161,7 @@
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="tapRemoveButton:" target="jQC-FG-UVN" id="bmn-a4-tlI"/>
+                                            <action selector="clickRemoveButton:" target="jQC-FG-UVN" id="bmn-a4-tlI"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1325,15 +1325,58 @@
         <!--PopoverVC-->
         <scene sceneID="cHO-cc-5Ni">
             <objects>
-                <viewController id="aHB-eg-BA9" customClass="PopoverVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PopoverVC" id="aHB-eg-BA9" customClass="PopoverVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="kr3-Pc-gCX">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="LyM-cA-1G9">
+                                <rect key="frame" x="165" y="133" width="121" height="32"/>
+                                <buttonCell key="cell" type="push" title="Show popover" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="BIJ-1A-6nJ">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="clickShowPopover:" target="aHB-eg-BA9" id="we6-2k-kZt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="LyM-cA-1G9" firstAttribute="centerY" secondItem="kr3-Pc-gCX" secondAttribute="centerY" id="0ld-vH-fTm"/>
+                            <constraint firstItem="LyM-cA-1G9" firstAttribute="centerX" secondItem="kr3-Pc-gCX" secondAttribute="centerX" id="VIl-Ub-wcE"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <customObject id="B3h-gH-gh1" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="266" y="3368"/>
+            <point key="canvasLocation" x="266" y="3362"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hcp-EY-mKG">
+            <objects>
+                <viewController storyboardIdentifier="Popover" id="B6C-Jk-fzt" sceneMemberID="viewController">
+                    <view key="view" id="z2E-mH-qk8">
+                        <rect key="frame" x="0.0" y="0.0" width="250" height="180"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mBN-Qf-B9r">
+                                <rect key="frame" x="98" y="82" width="54" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Popover" id="Ksi-uW-yXh">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="mBN-Qf-B9r" firstAttribute="centerY" secondItem="z2E-mH-qk8" secondAttribute="centerY" id="OCV-UB-dzO"/>
+                            <constraint firstItem="mBN-Qf-B9r" firstAttribute="centerX" secondItem="z2E-mH-qk8" secondAttribute="centerX" id="dJ7-Vr-yGh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="Kuu-QS-K5c" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="166" y="3675"/>
         </scene>
         <!--Core DataVC-->
         <scene sceneID="n9k-Ei-aVh">
@@ -1539,8 +1582,8 @@
                                                             <rect key="frame" x="37" y="0.0" width="97" height="28"/>
                                                             <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="KRA-99-w9e">
                                                                 <font key="font" metaFont="system"/>
-                                                                <date key="date" timeIntervalSinceReferenceDate="631122432.18714499">
-                                                                    <!--2020-12-31 15:47:12 +0000-->
+                                                                <date key="date" timeIntervalSinceReferenceDate="631181808.61000597">
+                                                                    <!--2021-01-01 08:16:48 +0000-->
                                                                 </date>
                                                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1600,7 +1643,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="tapUndoButton:" target="s5w-lJ-23g" id="bbB-MQ-Yq3"/>
+                                    <action selector="clickUndoButton:" target="s5w-lJ-23g" id="bbB-MQ-Yq3"/>
                                 </connections>
                             </button>
                         </subviews>
