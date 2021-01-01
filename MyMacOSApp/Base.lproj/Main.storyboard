@@ -888,8 +888,8 @@
                                         <rect key="frame" x="206" y="0.0" width="97" height="28"/>
                                         <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="gyT-p4-LpW">
                                             <font key="font" metaFont="system"/>
-                                            <date key="date" timeIntervalSinceReferenceDate="631196650.305076">
-                                                <!--2021-01-01 12:24:10 +0000-->
+                                            <date key="date" timeIntervalSinceReferenceDate="631201618.58772504">
+                                                <!--2021-01-01 13:46:58 +0000-->
                                             </date>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1500,6 +1500,35 @@
             </objects>
             <point key="canvasLocation" x="774" y="4017"/>
         </scene>
+        <!--SharingVC-->
+        <scene sceneID="VOR-7W-cB2">
+            <objects>
+                <viewController storyboardIdentifier="SharingVC" id="NPn-Wk-luI" customClass="SharingVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="M7A-ex-Qc7">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wk2-k3-hD9">
+                                <rect key="frame" x="191" y="133" width="69" height="32"/>
+                                <buttonCell key="cell" type="push" title="Share" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="vHc-UN-gTB">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="clickShareButton:" target="NPn-Wk-luI" id="6Id-My-4oi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="wk2-k3-hD9" firstAttribute="centerX" secondItem="M7A-ex-Qc7" secondAttribute="centerX" id="S7g-6R-Fab"/>
+                            <constraint firstItem="wk2-k3-hD9" firstAttribute="centerY" secondItem="M7A-ex-Qc7" secondAttribute="centerY" id="jsK-lZ-xZD"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="san-Y7-FWV" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="774" y="4406"/>
+        </scene>
         <!--Window Controller-->
         <scene sceneID="oiS-g7-FKc">
             <objects>
@@ -1758,8 +1787,8 @@
                                                             <rect key="frame" x="37" y="0.0" width="97" height="28"/>
                                                             <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="KRA-99-w9e">
                                                                 <font key="font" metaFont="system"/>
-                                                                <date key="date" timeIntervalSinceReferenceDate="631196650.36588204">
-                                                                    <!--2021-01-01 12:24:10 +0000-->
+                                                                <date key="date" timeIntervalSinceReferenceDate="631201618.65517604">
+                                                                    <!--2021-01-01 13:46:58 +0000-->
                                                                 </date>
                                                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>

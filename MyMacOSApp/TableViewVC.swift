@@ -16,6 +16,7 @@ class TableViewVC: NSViewController, NSTableViewDataSource, NSTableViewDelegate 
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //tableView.sortDescriptors = NSSortDescriptor(key: "name", ascending: true, selector: #selector(NSString.caseInsensitiveCompare))
     }
     
     @IBAction private func clickAddButton(_ sender: NSButton) {

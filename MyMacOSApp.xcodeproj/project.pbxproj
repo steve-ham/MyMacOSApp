@@ -30,6 +30,7 @@
 		AAB3F328259F4D6E00FC4C05 /* MyCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB3F326259F4D6E00FC4C05 /* MyCollectionViewItem.xib */; };
 		AAC11D8F259E1E3800C73847 /* CoreDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC11D8E259E1E3800C73847 /* CoreDataVC.swift */; };
 		AAC11D93259E1EA900C73847 /* MyMacOSApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAC11D91259E1EA900C73847 /* MyMacOSApp.xcdatamodeld */; };
+		AAD0FB99259F5FA800B16623 /* SharingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0FB98259F5FA800B16623 /* SharingVC.swift */; };
 		AADA0676259DF8CD00C05961 /* KeyboardEventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADA0675259DF8CD00C05961 /* KeyboardEventsVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		AAB3F326259F4D6E00FC4C05 /* MyCollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewItem.xib; sourceTree = "<group>"; };
 		AAC11D8E259E1E3800C73847 /* CoreDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataVC.swift; sourceTree = "<group>"; };
 		AAC11D92259E1EA900C73847 /* MyMacOSApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMacOSApp.xcdatamodel; sourceTree = "<group>"; };
+		AAD0FB98259F5FA800B16623 /* SharingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingVC.swift; sourceTree = "<group>"; };
 		AADA0675259DF8CD00C05961 /* KeyboardEventsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardEventsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 				AAB3F31A259F4BDF00FC4C05 /* CollectionViewVC.swift */,
 				AAB3F325259F4D6E00FC4C05 /* MyCollectionViewItem.swift */,
 				AAB3F326259F4D6E00FC4C05 /* MyCollectionViewItem.xib */,
+				AAD0FB98259F5FA800B16623 /* SharingVC.swift */,
 				AAC11D91259E1EA900C73847 /* MyMacOSApp.xcdatamodeld */,
 				AA3359EF258E31EE003AA3A3 /* Assets.xcassets */,
 				AA3359F1258E31EE003AA3A3 /* Main.storyboard */,
@@ -198,6 +201,7 @@
 				AA1107CB259B7DBD00AD43C3 /* DatePickerVC.swift in Sources */,
 				AAB3F327259F4D6E00FC4C05 /* MyCollectionViewItem.swift in Sources */,
 				AA6BDD53259F361400A422AA /* AlertVC.swift in Sources */,
+				AAD0FB99259F5FA800B16623 /* SharingVC.swift in Sources */,
 				AAC11D8F259E1E3800C73847 /* CoreDataVC.swift in Sources */,
 				AA335A00258E36A6003AA3A3 /* TableViewVC.swift in Sources */,
 				AAA46FB2259F17FD007206C9 /* StatusBarVC.swift in Sources */,
