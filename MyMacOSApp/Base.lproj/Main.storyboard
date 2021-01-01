@@ -888,8 +888,8 @@
                                         <rect key="frame" x="206" y="0.0" width="97" height="28"/>
                                         <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="gyT-p4-LpW">
                                             <font key="font" metaFont="system"/>
-                                            <date key="date" timeIntervalSinceReferenceDate="631191152.85319495">
-                                                <!--2021-01-01 10:52:32 +0000-->
+                                            <date key="date" timeIntervalSinceReferenceDate="631196650.305076">
+                                                <!--2021-01-01 12:24:10 +0000-->
                                             </date>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1407,6 +1407,153 @@
             </objects>
             <point key="canvasLocation" x="266" y="4017"/>
         </scene>
+        <!--Collection ViewVC-->
+        <scene sceneID="dSv-9Y-NlO">
+            <objects>
+                <viewController storyboardIdentifier="CollectionViewVC" id="Ia0-mY-rhf" customClass="CollectionViewVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="663-WA-VGk">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <scrollView wantsLayer="YES" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWk-th-Byy">
+                                <rect key="frame" x="20" y="60" width="410" height="220"/>
+                                <clipView key="contentView" id="0wk-Fh-v4w">
+                                    <rect key="frame" x="1" y="1" width="408" height="218"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <collectionView id="Nh4-MF-aHJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="408" height="158"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumInteritemSpacing="10" minimumLineSpacing="10" id="fH3-V7-fwo">
+                                                <size key="itemSize" width="50" height="50"/>
+                                            </collectionViewFlowLayout>
+                                            <color key="primaryBackgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            <connections>
+                                                <outlet property="dataSource" destination="Ia0-mY-rhf" id="Hfg-c1-3VT"/>
+                                            </connections>
+                                        </collectionView>
+                                    </subviews>
+                                </clipView>
+                                <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="uTj-Ku-f36">
+                                    <rect key="frame" x="1" y="207" width="408" height="16"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="txw-g5-Qil">
+                                    <rect key="frame" x="234" y="1" width="15" height="143"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="AFM-a9-oRv">
+                                <rect key="frame" x="196" y="13" width="59" height="32"/>
+                                <buttonCell key="cell" type="push" title="Add" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="0HM-4q-Kbo">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="clickAddButton:" target="Ia0-mY-rhf" id="ud1-ap-uLj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="hWk-th-Byy" firstAttribute="top" secondItem="663-WA-VGk" secondAttribute="top" constant="20" symbolic="YES" id="8o5-JV-TTt"/>
+                            <constraint firstItem="hWk-th-Byy" firstAttribute="leading" secondItem="663-WA-VGk" secondAttribute="leading" constant="20" symbolic="YES" id="ZiY-gq-i0J"/>
+                            <constraint firstAttribute="trailing" secondItem="hWk-th-Byy" secondAttribute="trailing" constant="20" symbolic="YES" id="kAA-BX-sih"/>
+                            <constraint firstItem="AFM-a9-oRv" firstAttribute="centerX" secondItem="663-WA-VGk" secondAttribute="centerX" id="ojZ-eU-5wO"/>
+                            <constraint firstAttribute="bottom" secondItem="AFM-a9-oRv" secondAttribute="bottom" constant="20" symbolic="YES" id="pMn-LF-jPR"/>
+                            <constraint firstItem="AFM-a9-oRv" firstAttribute="top" secondItem="hWk-th-Byy" secondAttribute="bottom" constant="20" symbolic="YES" id="tAP-D3-Nmi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="Nh4-MF-aHJ" id="oaj-5a-MAO"/>
+                    </connections>
+                </viewController>
+                <customObject id="Zk8-78-R5Q" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="265" y="4406"/>
+        </scene>
+        <!--Custom SheetVC-->
+        <scene sceneID="aZD-by-VLO">
+            <objects>
+                <viewController storyboardIdentifier="CustomSheetVC" id="5ma-jz-qNa" customClass="CustomSheetVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="cvM-n4-ZID">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6tb-yA-hgQ">
+                                <rect key="frame" x="149" y="133" width="153" height="32"/>
+                                <buttonCell key="cell" type="push" title="Show custom sheet" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="nm7-nW-eUy">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="clickShowCustomSheetButton:" target="5ma-jz-qNa" id="dpL-42-TUO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="6tb-yA-hgQ" firstAttribute="centerY" secondItem="cvM-n4-ZID" secondAttribute="centerY" id="Fft-cp-mwJ"/>
+                            <constraint firstItem="6tb-yA-hgQ" firstAttribute="centerX" secondItem="cvM-n4-ZID" secondAttribute="centerX" id="gqZ-ht-xRk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="Kot-ED-3zg" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="774" y="4017"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="oiS-g7-FKc">
+            <objects>
+                <windowController storyboardIdentifier="SheetWindowController" id="dWa-40-0ka" sceneMemberID="viewController">
+                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="DWR-iu-adb">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="425" y="462" width="480" height="270"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
+                        <view key="contentView" id="YaQ-kC-q04">
+                            <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </view>
+                        <connections>
+                            <outlet property="delegate" destination="dWa-40-0ka" id="ifE-6c-IaM"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="y8H-eK-G9p" kind="relationship" relationship="window.shadowedContentViewController" id="fcW-cc-kBL"/>
+                    </connections>
+                </windowController>
+                <customObject id="JFC-bf-E8l" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1305" y="4032"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fUf-9g-bg0">
+            <objects>
+                <viewController id="y8H-eK-G9p" sceneMemberID="viewController">
+                    <view key="view" id="wh7-sS-jUX">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="80G-Nn-iM9">
+                                <rect key="frame" x="206" y="118" width="69" height="32"/>
+                                <buttonCell key="cell" type="push" title="Close" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="99e-UW-A7f">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="clickClose:" target="y8H-eK-G9p" id="lbh-32-nXu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="80G-Nn-iM9" firstAttribute="centerX" secondItem="wh7-sS-jUX" secondAttribute="centerX" id="3GK-jp-niA"/>
+                            <constraint firstItem="80G-Nn-iM9" firstAttribute="centerY" secondItem="wh7-sS-jUX" secondAttribute="centerY" id="CYo-5j-IBx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="vga-ec-Noj" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1906" y="4017"/>
+        </scene>
         <!--Core DataVC-->
         <scene sceneID="n9k-Ei-aVh">
             <objects>
@@ -1611,8 +1758,8 @@
                                                             <rect key="frame" x="37" y="0.0" width="97" height="28"/>
                                                             <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="KRA-99-w9e">
                                                                 <font key="font" metaFont="system"/>
-                                                                <date key="date" timeIntervalSinceReferenceDate="631191152.905128">
-                                                                    <!--2021-01-01 10:52:32 +0000-->
+                                                                <date key="date" timeIntervalSinceReferenceDate="631196650.36588204">
+                                                                    <!--2021-01-01 12:24:10 +0000-->
                                                                 </date>
                                                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
