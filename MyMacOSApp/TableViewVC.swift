@@ -40,13 +40,13 @@ class TableViewVC: NSViewController, NSTableViewDataSource, NSTableViewDelegate 
     // MARK: - NSTableViewDelegate
     
     func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
-        guard let vw = tableView.makeView(withIdentifier: tableColumn!.identifier, owner: self) as? NSTableCellView else { return nil }
+        guard let cell = tableView.makeView(withIdentifier: tableColumn!.identifier, owner: self) as? NSTableCellView else { return nil }
         
         if tableColumn!.identifier.rawValue == "Index" {
-            vw.textField?.stringValue = "\(row)"
+            cell.textField?.stringValue = "\(row)"
         } else {
-            vw.textField?.stringValue = titles[row]
+            cell.textField?.stringValue = titles[row]
         }
-        return vw
+        return cell
     }
 }
