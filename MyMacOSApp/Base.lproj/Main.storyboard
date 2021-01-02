@@ -888,8 +888,8 @@
                                         <rect key="frame" x="206" y="0.0" width="97" height="28"/>
                                         <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="gyT-p4-LpW">
                                             <font key="font" metaFont="system"/>
-                                            <date key="date" timeIntervalSinceReferenceDate="631279649.81073403">
-                                                <!--2021-01-02 11:27:29 +0000-->
+                                            <date key="date" timeIntervalSinceReferenceDate="631292176.11885297">
+                                                <!--2021-01-02 14:56:16 +0000-->
                                             </date>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1571,7 +1571,7 @@
                                     </subviews>
                                 </clipView>
                                 <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="Fq6-Y5-kHn">
-                                    <rect key="frame" x="1" y="283" width="448" height="16"/>
+                                    <rect key="frame" x="1" y="227" width="448" height="16"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="a0e-Li-efz">
@@ -1633,6 +1633,36 @@
                 <customObject id="je4-Ic-XeA" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="266" y="5177"/>
+        </scene>
+        <!--Custom ButtonVC-->
+        <scene sceneID="b1A-Wk-uJq">
+            <objects>
+                <viewController storyboardIdentifier="CustomButtonVC" id="gfg-gC-KgT" customClass="CustomButtonVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" wantsLayer="YES" id="Dz6-WI-sAs">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Gjk-aj-nh3" customClass="BlueButton" customModule="MyMacOSApp" customModuleProvider="target">
+                                <rect key="frame" x="162" y="110" width="126" height="81"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="81" id="8Mi-OE-JXS"/>
+                                    <constraint firstAttribute="width" constant="126" id="Z2v-5z-bkr"/>
+                                </constraints>
+                                <buttonCell key="cell" type="square" title="Button" bezelStyle="shadowlessSquare" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="axesIndependently" inset="2" id="7Vn-hN-gZ1">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Gjk-aj-nh3" firstAttribute="centerY" secondItem="Dz6-WI-sAs" secondAttribute="centerY" id="OJ8-wC-t8N"/>
+                            <constraint firstItem="Gjk-aj-nh3" firstAttribute="centerX" secondItem="Dz6-WI-sAs" secondAttribute="centerX" id="TNe-hF-4X7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="OjA-os-QKc" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="266" y="5556"/>
         </scene>
         <!--Custom SheetVC-->
         <scene sceneID="aZD-by-VLO">
@@ -1720,18 +1750,18 @@
         <scene sceneID="wsK-Xm-gd7">
             <objects>
                 <viewController storyboardIdentifier="ViewBasedTableVC" id="HQz-GV-cpi" customClass="ViewBasedTableVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" misplaced="YES" id="gIV-eR-tiO">
+                    <view key="view" id="gIV-eR-tiO">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="440"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <scrollView autohidesScrollers="YES" horizontalLineScroll="50" horizontalPageScroll="10" verticalLineScroll="50" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1H-Vx-RBu">
-                                <rect key="frame" x="0.0" y="48" width="450" height="392"/>
+                                <rect key="frame" x="0.0" y="104" width="450" height="336"/>
                                 <clipView key="contentView" id="VfO-Vc-KDf">
-                                    <rect key="frame" x="1" y="1" width="448" height="390"/>
+                                    <rect key="frame" x="1" y="1" width="448" height="334"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="50" rowSizeStyle="automatic" headerView="4Go-7J-xZs" viewBased="YES" id="xlv-FC-KNr">
-                                            <rect key="frame" x="0.0" y="0.0" width="448" height="362"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="448" height="306"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <size key="intercellSpacing" width="17" height="0.0"/>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -1762,7 +1792,7 @@
                                                                                 <constraint firstAttribute="height" constant="30" id="69o-el-cT7"/>
                                                                                 <constraint firstAttribute="width" constant="30" id="ulp-8O-9Lj"/>
                                                                             </constraints>
-                                                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSActionTemplate" catalog="system" id="gSE-6i-6bM"/>
+                                                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSActionTemplate" id="gSE-6i-6bM"/>
                                                                         </imageView>
                                                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7bw-jK-nP9">
                                                                             <rect key="frame" x="44" y="7" width="96" height="16"/>
@@ -1811,8 +1841,8 @@
                                         </tableView>
                                     </subviews>
                                 </clipView>
-                                <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="0.83333333333333337" horizontal="YES" id="FPe-5Z-jH4">
-                                    <rect key="frame" x="1" y="277" width="437" height="16"/>
+                                <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="FPe-5Z-jH4">
+                                    <rect key="frame" x="1" y="375" width="448" height="16"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="mQC-vH-OIP">
@@ -1825,10 +1855,10 @@
                                 </tableHeaderView>
                             </scrollView>
                             <stackView distribution="fill" orientation="horizontal" alignment="top" spacing="16" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g5i-0e-FWZ">
-                                <rect key="frame" x="20" y="20" width="130" height="20"/>
+                                <rect key="frame" x="20" y="20" width="130" height="76"/>
                                 <subviews>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lxc-CZ-9eD">
-                                        <rect key="frame" x="-7" y="-7" width="59" height="32"/>
+                                        <rect key="frame" x="-7" y="49" width="59" height="32"/>
                                         <buttonCell key="cell" type="push" title="Add" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="CLN-zi-SCe">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
@@ -1838,7 +1868,7 @@
                                         </connections>
                                     </button>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xbd-jP-kfW">
-                                        <rect key="frame" x="54" y="-7" width="83" height="32"/>
+                                        <rect key="frame" x="54" y="49" width="83" height="32"/>
                                         <buttonCell key="cell" type="push" title="Remove" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="XpM-9o-tas">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
@@ -2133,8 +2163,8 @@
                                                             <rect key="frame" x="37" y="0.0" width="97" height="28"/>
                                                             <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="KRA-99-w9e">
                                                                 <font key="font" metaFont="system"/>
-                                                                <date key="date" timeIntervalSinceReferenceDate="631279649.89099705">
-                                                                    <!--2021-01-02 11:27:29 +0000-->
+                                                                <date key="date" timeIntervalSinceReferenceDate="631292176.22324002">
+                                                                    <!--2021-01-02 14:56:16 +0000-->
                                                                 </date>
                                                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -2252,6 +2282,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="NSActionTemplate" catalog="system" width="15" height="15"/>
+        <image name="NSActionTemplate" width="15" height="15"/>
     </resources>
 </document>
