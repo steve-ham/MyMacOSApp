@@ -25,8 +25,5 @@ class SplitViewController: NSSplitViewController {
                 })
             }
         })
-        
-        
     }
-
 }

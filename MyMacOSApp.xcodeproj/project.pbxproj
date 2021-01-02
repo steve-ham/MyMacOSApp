@@ -21,6 +21,7 @@
 		AA3359F3258E31EE003AA3A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3359F1258E31EE003AA3A3 /* Main.storyboard */; };
 		AA3359FD258E345B003AA3A3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3359FC258E345B003AA3A3 /* ListViewController.swift */; };
 		AA335A00258E36A6003AA3A3 /* TableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3359FF258E36A6003AA3A3 /* TableViewVC.swift */; };
+		AA5B271225A050B000B7A2A5 /* PrintVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5B271125A050B000B7A2A5 /* PrintVC.swift */; };
 		AA6BDD53259F361400A422AA /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6BDD52259F361400A422AA /* AlertVC.swift */; };
 		AA6BDD56259F3E8500A422AA /* CustomSheetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6BDD55259F3E8500A422AA /* CustomSheetVC.swift */; };
 		AAA46FB2259F17FD007206C9 /* StatusBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA46FB1259F17FD007206C9 /* StatusBarVC.swift */; };
@@ -28,6 +29,7 @@
 		AAB3F31B259F4BDF00FC4C05 /* CollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3F31A259F4BDF00FC4C05 /* CollectionViewVC.swift */; };
 		AAB3F327259F4D6E00FC4C05 /* MyCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3F325259F4D6E00FC4C05 /* MyCollectionViewItem.swift */; };
 		AAB3F328259F4D6E00FC4C05 /* MyCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB3F326259F4D6E00FC4C05 /* MyCollectionViewItem.xib */; };
+		AABE9346259F66E400D83927 /* SplitViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE9345259F66E400D83927 /* SplitViewVC.swift */; };
 		AAC11D8F259E1E3800C73847 /* CoreDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC11D8E259E1E3800C73847 /* CoreDataVC.swift */; };
 		AAC11D93259E1EA900C73847 /* MyMacOSApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAC11D91259E1EA900C73847 /* MyMacOSApp.xcdatamodeld */; };
 		AAD0FB99259F5FA800B16623 /* SharingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0FB98259F5FA800B16623 /* SharingVC.swift */; };
@@ -52,6 +54,7 @@
 		AA3359F5258E31EE003AA3A3 /* MyMacOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyMacOSApp.entitlements; sourceTree = "<group>"; };
 		AA3359FC258E345B003AA3A3 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		AA3359FF258E36A6003AA3A3 /* TableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewVC.swift; sourceTree = "<group>"; };
+		AA5B271125A050B000B7A2A5 /* PrintVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintVC.swift; sourceTree = "<group>"; };
 		AA6BDD52259F361400A422AA /* AlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
 		AA6BDD55259F3E8500A422AA /* CustomSheetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSheetVC.swift; sourceTree = "<group>"; };
 		AAA46FB1259F17FD007206C9 /* StatusBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarVC.swift; sourceTree = "<group>"; };
@@ -59,6 +62,7 @@
 		AAB3F31A259F4BDF00FC4C05 /* CollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewVC.swift; sourceTree = "<group>"; };
 		AAB3F325259F4D6E00FC4C05 /* MyCollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewItem.swift; sourceTree = "<group>"; };
 		AAB3F326259F4D6E00FC4C05 /* MyCollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewItem.xib; sourceTree = "<group>"; };
+		AABE9345259F66E400D83927 /* SplitViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewVC.swift; sourceTree = "<group>"; };
 		AAC11D8E259E1E3800C73847 /* CoreDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataVC.swift; sourceTree = "<group>"; };
 		AAC11D92259E1EA900C73847 /* MyMacOSApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMacOSApp.xcdatamodel; sourceTree = "<group>"; };
 		AAD0FB98259F5FA800B16623 /* SharingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingVC.swift; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 				AAB3F325259F4D6E00FC4C05 /* MyCollectionViewItem.swift */,
 				AAB3F326259F4D6E00FC4C05 /* MyCollectionViewItem.xib */,
 				AAD0FB98259F5FA800B16623 /* SharingVC.swift */,
+				AABE9345259F66E400D83927 /* SplitViewVC.swift */,
+				AA5B271125A050B000B7A2A5 /* PrintVC.swift */,
 				AAC11D91259E1EA900C73847 /* MyMacOSApp.xcdatamodeld */,
 				AA3359EF258E31EE003AA3A3 /* Assets.xcassets */,
 				AA3359F1258E31EE003AA3A3 /* Main.storyboard */,
@@ -215,8 +221,10 @@
 				AA0EBEE3259C8062003CC713 /* MenuVC.swift in Sources */,
 				AAC11D93259E1EA900C73847 /* MyMacOSApp.xcdatamodeld in Sources */,
 				AA1107CE259B81FC00AD43C3 /* SliderVC.swift in Sources */,
+				AABE9346259F66E400D83927 /* SplitViewVC.swift in Sources */,
 				AA3359EC258E31EE003AA3A3 /* AppDelegate.swift in Sources */,
 				AAB160F9259E2B590026410E /* PopoverVC.swift in Sources */,
+				AA5B271225A050B000B7A2A5 /* PrintVC.swift in Sources */,
 				AA3359FD258E345B003AA3A3 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

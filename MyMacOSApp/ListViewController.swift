@@ -9,7 +9,7 @@ import Cocoa
 
 class ListViewController: NSViewController, NSTableViewDataSource, NSTableViewDelegate {
     
-    private var subjects = ["TableViewVC", "DatePickerVC", "SliderVC", "PopUpButtonVC", "ImageViewVC", "MenuVC", "DragAndDropVC", "MouseEventsVC", "KeyboardEventsVC", "CoreDataVC", "PopoverVC", "AlertVC", "CustomSheetVC", "CollectionViewVC", "SharingVC"]
+    private var subjects = ["TableViewVC", "DatePickerVC", "SliderVC", "PopUpButtonVC", "ImageViewVC", "MenuVC", "DragAndDropVC", "MouseEventsVC", "KeyboardEventsVC", "CoreDataVC", "PopoverVC", "AlertVC", "CustomSheetVC", "CollectionViewVC", "SharingVC", "SplitViewVC", "PrintVC"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -65,6 +65,10 @@ class ListViewController: NSViewController, NSTableViewDataSource, NSTableViewDe
         } else if let vc = c as? CollectionViewVC {
             splitViewController.children[1] = vc
         } else if let vc = c as? SharingVC {
+            splitViewController.children[1] = vc
+        } else if let vc = c as? SplitViewVC {
+            splitViewController.children[1] = vc
+        } else if let vc = c as? PrintVC {
             splitViewController.children[1] = vc
         }
     }

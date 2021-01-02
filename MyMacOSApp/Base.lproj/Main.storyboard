@@ -888,8 +888,8 @@
                                         <rect key="frame" x="206" y="0.0" width="97" height="28"/>
                                         <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="gyT-p4-LpW">
                                             <font key="font" metaFont="system"/>
-                                            <date key="date" timeIntervalSinceReferenceDate="631201618.58772504">
-                                                <!--2021-01-01 13:46:58 +0000-->
+                                            <date key="date" timeIntervalSinceReferenceDate="631265963.90652299">
+                                                <!--2021-01-02 07:39:23 +0000-->
                                             </date>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1471,6 +1471,52 @@
             </objects>
             <point key="canvasLocation" x="265" y="4406"/>
         </scene>
+        <!--Split ViewVC-->
+        <scene sceneID="aCa-PF-eUd">
+            <objects>
+                <viewController storyboardIdentifier="SplitViewVC" id="LZA-Cl-XjD" customClass="SplitViewVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="7Xn-7B-ZzH">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <splitView arrangesAllSubviews="NO" dividerStyle="paneSplitter" vertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7wa-FJ-ttm">
+                                <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                                <subviews>
+                                    <customView fixedFrame="YES" id="QCS-nG-R0D">
+                                        <rect key="frame" x="0.0" y="0.0" width="116" height="300"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    </customView>
+                                    <customView fixedFrame="YES" id="aaE-9y-nso">
+                                        <rect key="frame" x="126" y="0.0" width="158" height="300"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </customView>
+                                    <customView fixedFrame="YES" id="2Ic-Rt-r1G">
+                                        <rect key="frame" x="294" y="0.0" width="156" height="300"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </customView>
+                                </subviews>
+                                <holdingPriorities>
+                                    <real value="250"/>
+                                    <real value="250"/>
+                                    <real value="250"/>
+                                </holdingPriorities>
+                                <connections>
+                                    <outlet property="delegate" destination="LZA-Cl-XjD" id="mEl-Qv-A26"/>
+                                </connections>
+                            </splitView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="7wa-FJ-ttm" firstAttribute="top" secondItem="7Xn-7B-ZzH" secondAttribute="top" id="BVy-U7-P16"/>
+                            <constraint firstAttribute="bottom" secondItem="7wa-FJ-ttm" secondAttribute="bottom" id="bqn-dF-nTc"/>
+                            <constraint firstItem="7wa-FJ-ttm" firstAttribute="leading" secondItem="7Xn-7B-ZzH" secondAttribute="leading" id="fim-O6-hkA"/>
+                            <constraint firstAttribute="trailing" secondItem="7wa-FJ-ttm" secondAttribute="trailing" id="iMj-Tp-xlK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="txi-07-OVZ" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="265" y="4799"/>
+        </scene>
         <!--Custom SheetVC-->
         <scene sceneID="aZD-by-VLO">
             <objects>
@@ -1528,6 +1574,30 @@
                 <customObject id="san-Y7-FWV" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="774" y="4406"/>
+        </scene>
+        <!--PrintVC-->
+        <scene sceneID="giq-8A-ZAr">
+            <objects>
+                <viewController storyboardIdentifier="PrintVC" id="UrQ-8i-kVq" customClass="PrintVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="pXW-5Z-d7T">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="uft-V0-Ezy" customClass="PrintView" customModule="MyMacOSApp" customModuleProvider="target">
+                                <rect key="frame" x="20" y="20" width="410" height="260"/>
+                            </customView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="uft-V0-Ezy" secondAttribute="trailing" constant="20" symbolic="YES" id="2R4-FV-Y2h"/>
+                            <constraint firstItem="uft-V0-Ezy" firstAttribute="leading" secondItem="pXW-5Z-d7T" secondAttribute="leading" constant="20" symbolic="YES" id="6SO-pd-cFk"/>
+                            <constraint firstItem="uft-V0-Ezy" firstAttribute="top" secondItem="pXW-5Z-d7T" secondAttribute="top" constant="20" symbolic="YES" id="9H1-zu-M7e"/>
+                            <constraint firstAttribute="bottom" secondItem="uft-V0-Ezy" secondAttribute="bottom" constant="20" symbolic="YES" id="PA7-eh-cT4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="qKe-Xg-07r" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="766" y="4799"/>
         </scene>
         <!--Window Controller-->
         <scene sceneID="oiS-g7-FKc">
@@ -1787,8 +1857,8 @@
                                                             <rect key="frame" x="37" y="0.0" width="97" height="28"/>
                                                             <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="KRA-99-w9e">
                                                                 <font key="font" metaFont="system"/>
-                                                                <date key="date" timeIntervalSinceReferenceDate="631201618.65517604">
-                                                                    <!--2021-01-01 13:46:58 +0000-->
+                                                                <date key="date" timeIntervalSinceReferenceDate="631265964.00103796">
+                                                                    <!--2021-01-02 07:39:24 +0000-->
                                                                 </date>
                                                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
