@@ -9,6 +9,8 @@ import Cocoa
 
 class OutlineVC: NSViewController, NSOutlineViewDataSource, NSOutlineViewDelegate {
     
+    @IBOutlet private weak var outlineView: NSOutlineView!
+    
     private lazy var people: [Person] = {
         var people = [Person]()
         var yoda = Person(name: "Yoda", age: 900, children: [Person]())
@@ -47,21 +49,57 @@ class OutlineVC: NSViewController, NSOutlineViewDataSource, NSOutlineViewDelegat
         }
     }
     
-    func outlineView(_ outlineView: NSOutlineView, viewFor tableColumn: NSTableColumn?, item: Any) -> NSView? {
-        guard let cell = outlineView.makeView(withIdentifier: tableColumn!.identifier, owner: self) as? NSTableCellView else { return nil }
-        
-        if tableColumn!.identifier.rawValue == "Name" {
+    func outlineView(_ outlineView: NSOutlineView, objectValueFor tableColumn: NSTableColumn?, byItem item: Any?) -> Any? {
+        if tableColumn?.identifier.rawValue == "Name" {
             if let person = item as? Person {
-                cell.textField?.stringValue = person.name
+                return person.name
             }
-        } else if tableColumn!.identifier.rawValue == "Age" {
+        } else {
             if let person = item as? Person {
-                cell.textField?.stringValue = "\(person.age)"
+                return person.age
             }
         }
-        
-        return cell
-        
-//        guard let vw = tableView.makeView(withIdentifier: tableColumn!.identifier, owner: self) as? NSTableCellView else { return nil }
+        return nil
     }
+    
+    func outlineView(_ outlineView: NSOutlineView, setObjectValue object: Any?, for tableColumn: NSTableColumn?, byItem item: Any?) {
+        if tableColumn?.identifier.rawValue == "Name" {
+            if let person = item as? Person {
+                person.name = object as? String ?? ""
+            }
+        } else {
+            if let person = item as? Person {
+                let age = Int(object as? String ?? "") ?? 0
+                return person.age = age
+            }
+        }
+    }
+    
+    @IBAction private func clickAddButton(_ sender: NSButton) {
+        let person = outlineView.item(atRow: outlineView.selectedRow) as? Person
+        
+        if person == nil {
+            let p = Person(name: "Unnamed", age: 0, children: [Person]())
+            people.append(p)
+        } else {
+            let p = Person(name: "Unnamed", age: 0, children: [Person]())
+            person?.children.append(p)
+        }
+        outlineView.reloadData()
+    }
+    
+    @IBAction private func clickRemoveButton(_ sender: NSButton) {
+        let child = outlineView.item(atRow: outlineView.selectedRow) as? Person
+        let parent = outlineView.parent(forItem: child) as? Person
+        if let parent = parent, let child = child {
+            if let index = parent.children.firstIndex(where: { $0 === child }) {
+                parent.children.remove(at: index)
+            }
+        } else {
+            people.removeAll()
+        }
+        outlineView.reloadData()
+    }
+    
+    
 }
