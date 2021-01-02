@@ -23,6 +23,7 @@
 		AA3359F3258E31EE003AA3A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3359F1258E31EE003AA3A3 /* Main.storyboard */; };
 		AA3359FD258E345B003AA3A3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3359FC258E345B003AA3A3 /* ListViewController.swift */; };
 		AA335A00258E36A6003AA3A3 /* TableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3359FF258E36A6003AA3A3 /* TableViewVC.swift */; };
+		AA4413D325A09AE80021558D /* ViewBasedTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4413D225A09AE80021558D /* ViewBasedTableVC.swift */; };
 		AA5B271225A050B000B7A2A5 /* PrintVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5B271125A050B000B7A2A5 /* PrintVC.swift */; };
 		AA6BDD53259F361400A422AA /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6BDD52259F361400A422AA /* AlertVC.swift */; };
 		AA6BDD56259F3E8500A422AA /* CustomSheetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6BDD55259F3E8500A422AA /* CustomSheetVC.swift */; };
@@ -58,6 +59,7 @@
 		AA3359F5258E31EE003AA3A3 /* MyMacOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyMacOSApp.entitlements; sourceTree = "<group>"; };
 		AA3359FC258E345B003AA3A3 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		AA3359FF258E36A6003AA3A3 /* TableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewVC.swift; sourceTree = "<group>"; };
+		AA4413D225A09AE80021558D /* ViewBasedTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBasedTableVC.swift; sourceTree = "<group>"; };
 		AA5B271125A050B000B7A2A5 /* PrintVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintVC.swift; sourceTree = "<group>"; };
 		AA6BDD52259F361400A422AA /* AlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
 		AA6BDD55259F3E8500A422AA /* CustomSheetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSheetVC.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				AABE9345259F66E400D83927 /* SplitViewVC.swift */,
 				AA5B271125A050B000B7A2A5 /* PrintVC.swift */,
 				AA32709C25A061A1002B2522 /* OutlineVC.swift */,
+				AA4413D225A09AE80021558D /* ViewBasedTableVC.swift */,
 				AA32709F25A06237002B2522 /* Person.swift */,
 				AAC11D91259E1EA900C73847 /* MyMacOSApp.xcdatamodeld */,
 				AA3359EF258E31EE003AA3A3 /* Assets.xcassets */,
@@ -212,6 +215,7 @@
 				AA13CD7D259DC6600099BC03 /* MouseEventsVC.swift in Sources */,
 				AA1107CB259B7DBD00AD43C3 /* DatePickerVC.swift in Sources */,
 				AAB3F327259F4D6E00FC4C05 /* MyCollectionViewItem.swift in Sources */,
+				AA4413D325A09AE80021558D /* ViewBasedTableVC.swift in Sources */,
 				AA6BDD53259F361400A422AA /* AlertVC.swift in Sources */,
 				AAD0FB99259F5FA800B16623 /* SharingVC.swift in Sources */,
 				AAC11D8F259E1E3800C73847 /* CoreDataVC.swift in Sources */,
