@@ -21,15 +21,24 @@ class DragAndDropTableVC: NSViewController, NSTableViewDataSource, NSTableViewDe
         super.viewDidLoad()
     }
     
+    // MARK: - NSTableViewDataSource
+    
     func numberOfRows(in tableView: NSTableView) -> Int {
         dragAndDropImages.count
     }
     
-    func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
-        guard let cell = tableView.makeView(withIdentifier: NSUserInterfaceItemIdentifier(rawValue: "Cell"), owner: self) as? NSTableCellView else { return nil }
-        cell.imageView?.image = NSImage(contentsOf: dragAndDropImages[row].nsURL as URL)
-        cell.textField?.stringValue = dragAndDropImages[row].name
-        return cell
+    func tableView(_ tableView: NSTableView, acceptDrop info: NSDraggingInfo, row: Int, dropOperation: NSTableView.DropOperation) -> Bool {
+        let classes = [DragAndDropImage.self]
+        
+        var insertionIndex = row
+        info.enumerateDraggingItems(options: .concurrent, for: tableView, classes: classes, searchOptions: [:]) { [weak self] draggingItem, index, _ in
+            guard let self = self, let dragAndDropImage = draggingItem.item as? DragAndDropImage else { return }
+            self.dragAndDropImages.insert(dragAndDropImage, at: insertionIndex)
+            self.tableView.reloadData()
+            draggingItem.draggingFrame = self.tableView.frameOfCell(atColumn: 0, row: insertionIndex)
+            insertionIndex += 1
+        }
+        return true
     }
     
     func tableView(_ tableView: NSTableView, pasteboardWriterForRow row: Int) -> NSPasteboardWriting? {
@@ -76,6 +85,15 @@ class DragAndDropTableVC: NSViewController, NSTableViewDataSource, NSTableViewDe
         }
     }
     
+    // MARK: - NSTableViewDelegate
+    
+    func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
+        guard let cell = tableView.makeView(withIdentifier: NSUserInterfaceItemIdentifier(rawValue: "Cell"), owner: self) as? NSTableCellView else { return nil }
+        cell.imageView?.image = NSImage(contentsOf: dragAndDropImages[row].nsURL as URL)
+        cell.textField?.stringValue = dragAndDropImages[row].name
+        return cell
+    }
+    
     @IBAction private func clickAddButton(_ sender: NSButton) {
         let openPanel = NSOpenPanel()
         openPanel.allowsMultipleSelection = true
@@ -93,7 +111,11 @@ class DragAndDropTableVC: NSViewController, NSTableViewDataSource, NSTableViewDe
     }
     
     @IBAction private func clickRemoveButton(_ sender: NSButton) {
-        
+        tableView.selectedRowIndexes.reversed().forEach { [weak self] index in
+            guard let self = self else { return }
+            self.dragAndDropImages.remove(at: index)
+        }
+        tableView.reloadData()
     }
     
     
