@@ -9,7 +9,7 @@ import Cocoa
 
 class ListViewController: NSViewController, NSTableViewDataSource, NSTableViewDelegate {
     
-    private var subjects = ["TableViewVC", "DatePickerVC", "SliderVC", "PopUpButtonVC", "ImageViewVC", "MenuVC", "DragAndDropVC", "MouseEventsVC", "KeyboardEventsVC", "CoreDataVC", "PopoverVC", "AlertVC", "CustomSheetVC", "CollectionViewVC", "SharingVC", "SplitViewVC", "PrintVC", "OutlineVC", "ViewBasedTableVC", "CustomButtonVC"]
+    private var subjects = ["TableViewVC", "DatePickerVC", "SliderVC", "PopUpButtonVC", "ImageViewVC", "MenuVC", "DragAndDropVC", "MouseEventsVC", "KeyboardEventsVC", "CoreDataVC", "PopoverVC", "AlertVC", "CustomSheetVC", "CollectionViewVC", "SharingVC", "SplitViewVC", "PrintVC", "OutlineVC", "ViewBasedTableVC", "CustomButtonVC", "DragAndDropTableVC"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,11 +20,11 @@ class ListViewController: NSViewController, NSTableViewDataSource, NSTableViewDe
     }
     
     func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
-        guard let v = tableView.makeView(withIdentifier: tableColumn!.identifier, owner: self) as? NSTableCellView else { return nil }
+        guard let cell = tableView.makeView(withIdentifier: tableColumn!.identifier, owner: self) as? NSTableCellView else { return nil }
         
-        v.textField?.stringValue = subjects[row]
+        cell.textField?.stringValue = subjects[row]
         
-        return v
+        return cell
     }
     
     func tableViewSelectionDidChange(_ notification: Notification) {
@@ -75,6 +75,8 @@ class ListViewController: NSViewController, NSTableViewDataSource, NSTableViewDe
         } else if let vc = c as? ViewBasedTableVC {
             splitViewController.children[1] = vc
         } else if let vc = c as? CustomButtonVC {
+            splitViewController.children[1] = vc
+        } else if let vc = c as? DragAndDropTableVC {
             splitViewController.children[1] = vc
         }
     }

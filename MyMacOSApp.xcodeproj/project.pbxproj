@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA0C05F125A18707009351A8 /* DragAndDropTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0C05F025A18707009351A8 /* DragAndDropTableVC.swift */; };
+		AA0C05F525A18D5C009351A8 /* DragAndDropImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0C05F425A18D5C009351A8 /* DragAndDropImage.swift */; };
 		AA0EBEE3259C8062003CC713 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0EBEE2259C8062003CC713 /* MenuVC.swift */; };
 		AA0EBEE6259C8442003CC713 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0EBEE5259C8442003CC713 /* WindowController.swift */; };
 		AA0EBEEC259C8744003CC713 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0EBEEB259C8744003CC713 /* SplitViewController.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA0C05F025A18707009351A8 /* DragAndDropTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropTableVC.swift; sourceTree = "<group>"; };
+		AA0C05F425A18D5C009351A8 /* DragAndDropImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropImage.swift; sourceTree = "<group>"; };
 		AA0EBEE2259C8062003CC713 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		AA0EBEE5259C8442003CC713 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		AA0EBEEB259C8744003CC713 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
@@ -132,9 +136,11 @@
 				AABE9345259F66E400D83927 /* SplitViewVC.swift */,
 				AA5B271125A050B000B7A2A5 /* PrintVC.swift */,
 				AA32709C25A061A1002B2522 /* OutlineVC.swift */,
-				AA4413D225A09AE80021558D /* ViewBasedTableVC.swift */,
 				AA32709F25A06237002B2522 /* Person.swift */,
+				AA4413D225A09AE80021558D /* ViewBasedTableVC.swift */,
 				AA166E2725A0C0F000E9018F /* CustomButtonVC.swift */,
+				AA0C05F025A18707009351A8 /* DragAndDropTableVC.swift */,
+				AA0C05F425A18D5C009351A8 /* DragAndDropImage.swift */,
 				AAC11D91259E1EA900C73847 /* MyMacOSApp.xcdatamodeld */,
 				AA3359EF258E31EE003AA3A3 /* Assets.xcassets */,
 				AA3359F1258E31EE003AA3A3 /* Main.storyboard */,
@@ -230,6 +236,7 @@
 				AAB3F31B259F4BDF00FC4C05 /* CollectionViewVC.swift in Sources */,
 				AA6BDD56259F3E8500A422AA /* CustomSheetVC.swift in Sources */,
 				AA166E2825A0C0F000E9018F /* CustomButtonVC.swift in Sources */,
+				AA0C05F125A18707009351A8 /* DragAndDropTableVC.swift in Sources */,
 				AADA0676259DF8CD00C05961 /* KeyboardEventsVC.swift in Sources */,
 				AA0EBEEC259C8744003CC713 /* SplitViewController.swift in Sources */,
 				AA13CD79259DB8DF0099BC03 /* DragAndDropVC.swift in Sources */,
@@ -239,6 +246,7 @@
 				AA1107CE259B81FC00AD43C3 /* SliderVC.swift in Sources */,
 				AABE9346259F66E400D83927 /* SplitViewVC.swift in Sources */,
 				AA3359EC258E31EE003AA3A3 /* AppDelegate.swift in Sources */,
+				AA0C05F525A18D5C009351A8 /* DragAndDropImage.swift in Sources */,
 				AAB160F9259E2B590026410E /* PopoverVC.swift in Sources */,
 				AA5B271225A050B000B7A2A5 /* PrintVC.swift in Sources */,
 				AA3359FD258E345B003AA3A3 /* ListViewController.swift in Sources */,
