@@ -19,6 +19,8 @@
 		AA13CD79259DB8DF0099BC03 /* DragAndDropVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13CD78259DB8DF0099BC03 /* DragAndDropVC.swift */; };
 		AA13CD7D259DC6600099BC03 /* MouseEventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13CD7C259DC6600099BC03 /* MouseEventsVC.swift */; };
 		AA166E2825A0C0F000E9018F /* CustomButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA166E2725A0C0F000E9018F /* CustomButtonVC.swift */; };
+		AA213E2225A21F9300A14D7C /* TableDiffableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA213E2125A21F9300A14D7C /* TableDiffableVC.swift */; };
+		AA213E2625A2211400A14D7C /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA213E2525A2211400A14D7C /* Food.swift */; };
 		AA32709D25A061A1002B2522 /* OutlineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32709C25A061A1002B2522 /* OutlineVC.swift */; };
 		AA3270A025A06237002B2522 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32709F25A06237002B2522 /* Person.swift */; };
 		AA3359EC258E31EE003AA3A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3359EB258E31EE003AA3A3 /* AppDelegate.swift */; };
@@ -55,6 +57,8 @@
 		AA13CD78259DB8DF0099BC03 /* DragAndDropVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropVC.swift; sourceTree = "<group>"; };
 		AA13CD7C259DC6600099BC03 /* MouseEventsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseEventsVC.swift; sourceTree = "<group>"; };
 		AA166E2725A0C0F000E9018F /* CustomButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonVC.swift; sourceTree = "<group>"; };
+		AA213E2125A21F9300A14D7C /* TableDiffableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDiffableVC.swift; sourceTree = "<group>"; };
+		AA213E2525A2211400A14D7C /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		AA32709C25A061A1002B2522 /* OutlineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineVC.swift; sourceTree = "<group>"; };
 		AA32709F25A06237002B2522 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		AA3359E8258E31EE003AA3A3 /* MyMacOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMacOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +145,8 @@
 				AA166E2725A0C0F000E9018F /* CustomButtonVC.swift */,
 				AA0C05F025A18707009351A8 /* DragAndDropTableVC.swift */,
 				AA0C05F425A18D5C009351A8 /* DragAndDropImage.swift */,
+				AA213E2125A21F9300A14D7C /* TableDiffableVC.swift */,
+				AA213E2525A2211400A14D7C /* Food.swift */,
 				AAC11D91259E1EA900C73847 /* MyMacOSApp.xcdatamodeld */,
 				AA3359EF258E31EE003AA3A3 /* Assets.xcassets */,
 				AA3359F1258E31EE003AA3A3 /* Main.storyboard */,
@@ -227,11 +233,13 @@
 				AA4413D325A09AE80021558D /* ViewBasedTableVC.swift in Sources */,
 				AA6BDD53259F361400A422AA /* AlertVC.swift in Sources */,
 				AAD0FB99259F5FA800B16623 /* SharingVC.swift in Sources */,
+				AA213E2225A21F9300A14D7C /* TableDiffableVC.swift in Sources */,
 				AAC11D8F259E1E3800C73847 /* CoreDataVC.swift in Sources */,
 				AA335A00258E36A6003AA3A3 /* TableViewVC.swift in Sources */,
 				AAA46FB2259F17FD007206C9 /* StatusBarVC.swift in Sources */,
 				AA1107D5259B855700AD43C3 /* ImageViewVC.swift in Sources */,
 				AA3270A025A06237002B2522 /* Person.swift in Sources */,
+				AA213E2625A2211400A14D7C /* Food.swift in Sources */,
 				AA1107D1259B836900AD43C3 /* PopUpButtonVC.swift in Sources */,
 				AAB3F31B259F4BDF00FC4C05 /* CollectionViewVC.swift in Sources */,
 				AA6BDD56259F3E8500A422AA /* CustomSheetVC.swift in Sources */,
