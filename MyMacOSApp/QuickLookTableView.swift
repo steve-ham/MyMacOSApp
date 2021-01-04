@@ -16,7 +16,7 @@ class QuickLookTableView: NSTableView {
     weak var qltvDelegate: QuickLookTableViewDelegate?
 
     override func keyDown(with event: NSEvent) {
-        if event.characters == "" {
+        if event.characters == " " {
             qltvDelegate?.quickLookTableViewSpacebarPressed(self)
         } else {
             super.keyDown(with: event)
