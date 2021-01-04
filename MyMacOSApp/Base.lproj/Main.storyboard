@@ -1762,6 +1762,30 @@
             </objects>
             <point key="canvasLocation" x="266" y="5937"/>
         </scene>
+        <!--Undo ManagerVC-->
+        <scene sceneID="Uxh-DJ-7Y9">
+            <objects>
+                <viewController storyboardIdentifier="UndoManagerVC" id="iVT-KY-Pir" customClass="UndoManagerVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="Z77-SS-bsu">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="rHI-CB-89a" customClass="DrawingView" customModule="MyMacOSApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                            </customView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="rHI-CB-89a" firstAttribute="leading" secondItem="Z77-SS-bsu" secondAttribute="leading" id="0hi-JF-oDb"/>
+                            <constraint firstItem="rHI-CB-89a" firstAttribute="top" secondItem="Z77-SS-bsu" secondAttribute="top" id="BfE-sN-25G"/>
+                            <constraint firstAttribute="trailing" secondItem="rHI-CB-89a" secondAttribute="trailing" id="KAJ-KI-M4E"/>
+                            <constraint firstAttribute="bottom" secondItem="rHI-CB-89a" secondAttribute="bottom" id="j8c-cR-ChQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="hzx-vc-IcA" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="266" y="6332"/>
+        </scene>
         <!--Custom SheetVC-->
         <scene sceneID="aZD-by-VLO">
             <objects>
