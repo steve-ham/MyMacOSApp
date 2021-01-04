@@ -32,6 +32,8 @@
 		AA5B271225A050B000B7A2A5 /* PrintVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5B271125A050B000B7A2A5 /* PrintVC.swift */; };
 		AA6BDD53259F361400A422AA /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6BDD52259F361400A422AA /* AlertVC.swift */; };
 		AA6BDD56259F3E8500A422AA /* CustomSheetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6BDD55259F3E8500A422AA /* CustomSheetVC.swift */; };
+		AA85A48325A2F0BE00A377AB /* QuickLookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85A48225A2F0BE00A377AB /* QuickLookVC.swift */; };
+		AA85A48625A2F11C00A377AB /* QuickLookTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85A48525A2F11C00A377AB /* QuickLookTableView.swift */; };
 		AAA46FB2259F17FD007206C9 /* StatusBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA46FB1259F17FD007206C9 /* StatusBarVC.swift */; };
 		AAB160F9259E2B590026410E /* PopoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB160F8259E2B590026410E /* PopoverVC.swift */; };
 		AAB3F31B259F4BDF00FC4C05 /* CollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3F31A259F4BDF00FC4C05 /* CollectionViewVC.swift */; };
@@ -73,6 +75,8 @@
 		AA5B271125A050B000B7A2A5 /* PrintVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintVC.swift; sourceTree = "<group>"; };
 		AA6BDD52259F361400A422AA /* AlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
 		AA6BDD55259F3E8500A422AA /* CustomSheetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSheetVC.swift; sourceTree = "<group>"; };
+		AA85A48225A2F0BE00A377AB /* QuickLookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookVC.swift; sourceTree = "<group>"; };
+		AA85A48525A2F11C00A377AB /* QuickLookTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookTableView.swift; sourceTree = "<group>"; };
 		AAA46FB1259F17FD007206C9 /* StatusBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarVC.swift; sourceTree = "<group>"; };
 		AAB160F8259E2B590026410E /* PopoverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverVC.swift; sourceTree = "<group>"; };
 		AAB3F31A259F4BDF00FC4C05 /* CollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewVC.swift; sourceTree = "<group>"; };
@@ -147,6 +151,8 @@
 				AA0C05F425A18D5C009351A8 /* DragAndDropImage.swift */,
 				AA213E2125A21F9300A14D7C /* TableDiffableVC.swift */,
 				AA213E2525A2211400A14D7C /* Food.swift */,
+				AA85A48225A2F0BE00A377AB /* QuickLookVC.swift */,
+				AA85A48525A2F11C00A377AB /* QuickLookTableView.swift */,
 				AAC11D91259E1EA900C73847 /* MyMacOSApp.xcdatamodeld */,
 				AA3359EF258E31EE003AA3A3 /* Assets.xcassets */,
 				AA3359F1258E31EE003AA3A3 /* Main.storyboard */,
@@ -242,6 +248,7 @@
 				AA213E2625A2211400A14D7C /* Food.swift in Sources */,
 				AA1107D1259B836900AD43C3 /* PopUpButtonVC.swift in Sources */,
 				AAB3F31B259F4BDF00FC4C05 /* CollectionViewVC.swift in Sources */,
+				AA85A48325A2F0BE00A377AB /* QuickLookVC.swift in Sources */,
 				AA6BDD56259F3E8500A422AA /* CustomSheetVC.swift in Sources */,
 				AA166E2825A0C0F000E9018F /* CustomButtonVC.swift in Sources */,
 				AA0C05F125A18707009351A8 /* DragAndDropTableVC.swift in Sources */,
@@ -251,6 +258,7 @@
 				AA0EBEE3259C8062003CC713 /* MenuVC.swift in Sources */,
 				AA32709D25A061A1002B2522 /* OutlineVC.swift in Sources */,
 				AAC11D93259E1EA900C73847 /* MyMacOSApp.xcdatamodeld in Sources */,
+				AA85A48625A2F11C00A377AB /* QuickLookTableView.swift in Sources */,
 				AA1107CE259B81FC00AD43C3 /* SliderVC.swift in Sources */,
 				AABE9346259F66E400D83927 /* SplitViewVC.swift in Sources */,
 				AA3359EC258E31EE003AA3A3 /* AppDelegate.swift in Sources */,
