@@ -1786,6 +1786,28 @@
             </objects>
             <point key="canvasLocation" x="266" y="6332"/>
         </scene>
+        <!--Auto LayoutVC-->
+        <scene sceneID="HWt-7z-Nl2">
+            <objects>
+                <viewController storyboardIdentifier="AutoLayoutVC" id="eFP-Yg-Y07" customClass="AutoLayoutVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" wantsLayer="YES" id="sw3-51-J6c">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <customView wantsLayer="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QnM-F9-hV4">
+                                <rect key="frame" x="144" y="102" width="163" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </customView>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="customView" destination="QnM-F9-hV4" id="nUn-dM-2CK"/>
+                    </connections>
+                </viewController>
+                <customObject id="Rzn-sL-OCG" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="264" y="6720"/>
+        </scene>
         <!--Custom SheetVC-->
         <scene sceneID="aZD-by-VLO">
             <objects>

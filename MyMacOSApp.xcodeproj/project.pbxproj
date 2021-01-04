@@ -19,6 +19,7 @@
 		AA13CD79259DB8DF0099BC03 /* DragAndDropVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13CD78259DB8DF0099BC03 /* DragAndDropVC.swift */; };
 		AA13CD7D259DC6600099BC03 /* MouseEventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13CD7C259DC6600099BC03 /* MouseEventsVC.swift */; };
 		AA166E2825A0C0F000E9018F /* CustomButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA166E2725A0C0F000E9018F /* CustomButtonVC.swift */; };
+		AA20CDC425A35263004AF165 /* AutoLayoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA20CDC325A35263004AF165 /* AutoLayoutVC.swift */; };
 		AA213E2225A21F9300A14D7C /* TableDiffableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA213E2125A21F9300A14D7C /* TableDiffableVC.swift */; };
 		AA213E2625A2211400A14D7C /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA213E2525A2211400A14D7C /* Food.swift */; };
 		AA32709D25A061A1002B2522 /* OutlineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32709C25A061A1002B2522 /* OutlineVC.swift */; };
@@ -63,6 +64,7 @@
 		AA13CD78259DB8DF0099BC03 /* DragAndDropVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropVC.swift; sourceTree = "<group>"; };
 		AA13CD7C259DC6600099BC03 /* MouseEventsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseEventsVC.swift; sourceTree = "<group>"; };
 		AA166E2725A0C0F000E9018F /* CustomButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonVC.swift; sourceTree = "<group>"; };
+		AA20CDC325A35263004AF165 /* AutoLayoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutVC.swift; sourceTree = "<group>"; };
 		AA213E2125A21F9300A14D7C /* TableDiffableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDiffableVC.swift; sourceTree = "<group>"; };
 		AA213E2525A2211400A14D7C /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		AA32709C25A061A1002B2522 /* OutlineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineVC.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				AABAF6BE25A3174E007274E9 /* DrawingView.swift */,
 				AABAF6C125A31772007274E9 /* CircleView.swift */,
 				AA7D5D5D25A345A500D92CF8 /* GestureVC.swift */,
+				AA20CDC325A35263004AF165 /* AutoLayoutVC.swift */,
 				AAC11D91259E1EA900C73847 /* MyMacOSApp.xcdatamodeld */,
 				AA3359EF258E31EE003AA3A3 /* Assets.xcassets */,
 				AA3359F1258E31EE003AA3A3 /* Main.storyboard */,
@@ -268,6 +271,7 @@
 				AADA0676259DF8CD00C05961 /* KeyboardEventsVC.swift in Sources */,
 				AA0EBEEC259C8744003CC713 /* SplitViewController.swift in Sources */,
 				AA13CD79259DB8DF0099BC03 /* DragAndDropVC.swift in Sources */,
+				AA20CDC425A35263004AF165 /* AutoLayoutVC.swift in Sources */,
 				AA0EBEE3259C8062003CC713 /* MenuVC.swift in Sources */,
 				AA32709D25A061A1002B2522 /* OutlineVC.swift in Sources */,
 				AAC11D93259E1EA900C73847 /* MyMacOSApp.xcdatamodeld in Sources */,
