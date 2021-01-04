@@ -32,6 +32,7 @@
 		AA5B271225A050B000B7A2A5 /* PrintVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5B271125A050B000B7A2A5 /* PrintVC.swift */; };
 		AA6BDD53259F361400A422AA /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6BDD52259F361400A422AA /* AlertVC.swift */; };
 		AA6BDD56259F3E8500A422AA /* CustomSheetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6BDD55259F3E8500A422AA /* CustomSheetVC.swift */; };
+		AA7D5D5E25A345A500D92CF8 /* GestureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D5D5D25A345A500D92CF8 /* GestureVC.swift */; };
 		AA85A48325A2F0BE00A377AB /* QuickLookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85A48225A2F0BE00A377AB /* QuickLookVC.swift */; };
 		AA85A48625A2F11C00A377AB /* QuickLookTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85A48525A2F11C00A377AB /* QuickLookTableView.swift */; };
 		AAA46FB2259F17FD007206C9 /* StatusBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA46FB1259F17FD007206C9 /* StatusBarVC.swift */; };
@@ -78,6 +79,7 @@
 		AA5B271125A050B000B7A2A5 /* PrintVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintVC.swift; sourceTree = "<group>"; };
 		AA6BDD52259F361400A422AA /* AlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
 		AA6BDD55259F3E8500A422AA /* CustomSheetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSheetVC.swift; sourceTree = "<group>"; };
+		AA7D5D5D25A345A500D92CF8 /* GestureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureVC.swift; sourceTree = "<group>"; };
 		AA85A48225A2F0BE00A377AB /* QuickLookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookVC.swift; sourceTree = "<group>"; };
 		AA85A48525A2F11C00A377AB /* QuickLookTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookTableView.swift; sourceTree = "<group>"; };
 		AAA46FB1259F17FD007206C9 /* StatusBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarVC.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				AABAF6BB25A31702007274E9 /* UndoManagerVC.swift */,
 				AABAF6BE25A3174E007274E9 /* DrawingView.swift */,
 				AABAF6C125A31772007274E9 /* CircleView.swift */,
+				AA7D5D5D25A345A500D92CF8 /* GestureVC.swift */,
 				AAC11D91259E1EA900C73847 /* MyMacOSApp.xcdatamodeld */,
 				AA3359EF258E31EE003AA3A3 /* Assets.xcassets */,
 				AA3359F1258E31EE003AA3A3 /* Main.storyboard */,
@@ -275,6 +278,7 @@
 				AA3359EC258E31EE003AA3A3 /* AppDelegate.swift in Sources */,
 				AA0C05F525A18D5C009351A8 /* DragAndDropImage.swift in Sources */,
 				AAB160F9259E2B590026410E /* PopoverVC.swift in Sources */,
+				AA7D5D5E25A345A500D92CF8 /* GestureVC.swift in Sources */,
 				AABAF6BC25A31702007274E9 /* UndoManagerVC.swift in Sources */,
 				AA5B271225A050B000B7A2A5 /* PrintVC.swift in Sources */,
 				AA3359FD258E345B003AA3A3 /* ListViewController.swift in Sources */,

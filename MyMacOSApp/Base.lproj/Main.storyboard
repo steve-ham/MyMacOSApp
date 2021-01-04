@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17506"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -888,8 +888,8 @@
                                         <rect key="frame" x="206" y="0.0" width="97" height="28"/>
                                         <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="gyT-p4-LpW">
                                             <font key="font" metaFont="system"/>
-                                            <date key="date" timeIntervalSinceReferenceDate="631439799.63412094">
-                                                <!--2021-01-04 07:56:39 +0000-->
+                                            <date key="date" timeIntervalSinceReferenceDate="631457708.35428596">
+                                                <!--2021-01-04 12:55:08 +0000-->
                                             </date>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1877,13 +1877,13 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <scrollView autohidesScrollers="YES" horizontalLineScroll="50" horizontalPageScroll="10" verticalLineScroll="50" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1H-Vx-RBu">
-                                <rect key="frame" x="0.0" y="160" width="450" height="280"/>
+                                <rect key="frame" x="0.0" y="328" width="450" height="112"/>
                                 <clipView key="contentView" id="VfO-Vc-KDf">
-                                    <rect key="frame" x="1" y="1" width="448" height="278"/>
+                                    <rect key="frame" x="1" y="1" width="448" height="110"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="50" rowSizeStyle="automatic" headerView="4Go-7J-xZs" viewBased="YES" id="xlv-FC-KNr">
-                                            <rect key="frame" x="0.0" y="0.0" width="448" height="250"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="448" height="82"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <size key="intercellSpacing" width="17" height="0.0"/>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -1964,7 +1964,7 @@
                                     </subviews>
                                 </clipView>
                                 <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="FPe-5Z-jH4">
-                                    <rect key="frame" x="1" y="319" width="448" height="16"/>
+                                    <rect key="frame" x="1" y="151" width="448" height="16"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="mQC-vH-OIP">
@@ -1977,10 +1977,10 @@
                                 </tableHeaderView>
                             </scrollView>
                             <stackView distribution="fill" orientation="horizontal" alignment="top" spacing="16" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g5i-0e-FWZ">
-                                <rect key="frame" x="20" y="20" width="130" height="132"/>
+                                <rect key="frame" x="20" y="20" width="130" height="300"/>
                                 <subviews>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lxc-CZ-9eD">
-                                        <rect key="frame" x="-7" y="105" width="59" height="32"/>
+                                        <rect key="frame" x="-7" y="273" width="59" height="32"/>
                                         <buttonCell key="cell" type="push" title="Add" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="CLN-zi-SCe">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
@@ -1990,7 +1990,7 @@
                                         </connections>
                                     </button>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xbd-jP-kfW">
-                                        <rect key="frame" x="54" y="105" width="83" height="32"/>
+                                        <rect key="frame" x="54" y="273" width="83" height="32"/>
                                         <buttonCell key="cell" type="push" title="Remove" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="XpM-9o-tas">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
@@ -2247,6 +2247,50 @@
                 <customObject id="4qY-zH-Oum" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="766" y="5996"/>
+        </scene>
+        <!--GestureVC-->
+        <scene sceneID="exu-Fo-VwS">
+            <objects>
+                <viewController storyboardIdentifier="GestureVC" id="TPS-LF-n2t" customClass="GestureVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" wantsLayer="YES" id="pEK-fQ-Hfc">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <customView wantsLayer="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MRr-Ue-fOR">
+                                <rect key="frame" x="144" y="102" width="163" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <gestureRecognizers>
+                                    <clickGestureRecognizer delaysPrimaryMouseButtonEvents="YES" numberOfClicksRequired="1" id="F5d-bK-gKM">
+                                        <connections>
+                                            <action selector="clickView:" target="TPS-LF-n2t" id="ZLh-Pt-61z"/>
+                                        </connections>
+                                    </clickGestureRecognizer>
+                                    <magnificationGestureRecognizer delaysMagnificationEvents="YES" magnification="0.0" id="Na3-gt-bvS">
+                                        <connections>
+                                            <action selector="magnifyView:" target="TPS-LF-n2t" id="lBe-uK-NJv"/>
+                                        </connections>
+                                    </magnificationGestureRecognizer>
+                                    <panGestureRecognizer delaysPrimaryMouseButtonEvents="YES" id="Yb2-RU-0B0">
+                                        <connections>
+                                            <action selector="panView:" target="TPS-LF-n2t" id="ZdB-yF-b9c"/>
+                                        </connections>
+                                    </panGestureRecognizer>
+                                    <rotationGestureRecognizer delaysRotationEvents="YES" id="qUE-u0-iOY">
+                                        <connections>
+                                            <action selector="rotateView:" target="TPS-LF-n2t" id="GvP-KW-Lq2"/>
+                                        </connections>
+                                    </rotationGestureRecognizer>
+                                </gestureRecognizers>
+                            </customView>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="customView" destination="MRr-Ue-fOR" id="U8n-Em-DNo"/>
+                    </connections>
+                </viewController>
+                <customObject id="SBk-AN-0p6" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="766" y="6390"/>
         </scene>
         <!--Window Controller-->
         <scene sceneID="oiS-g7-FKc">
@@ -2506,8 +2550,8 @@
                                                             <rect key="frame" x="37" y="0.0" width="97" height="28"/>
                                                             <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="KRA-99-w9e">
                                                                 <font key="font" metaFont="system"/>
-                                                                <date key="date" timeIntervalSinceReferenceDate="631439799.75975704">
-                                                                    <!--2021-01-04 07:56:39 +0000-->
+                                                                <date key="date" timeIntervalSinceReferenceDate="631457708.50766003">
+                                                                    <!--2021-01-04 12:55:08 +0000-->
                                                                 </date>
                                                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
