@@ -52,6 +52,9 @@
 		AAC11D93259E1EA900C73847 /* MyMacOSApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAC11D91259E1EA900C73847 /* MyMacOSApp.xcdatamodeld */; };
 		AAD0FB99259F5FA800B16623 /* SharingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0FB98259F5FA800B16623 /* SharingVC.swift */; };
 		AADA0676259DF8CD00C05961 /* KeyboardEventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADA0675259DF8CD00C05961 /* KeyboardEventsVC.swift */; };
+		AAE181AE25A3730200ABF470 /* CompositionalLayoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE181AD25A3730200ABF470 /* CompositionalLayoutVC.swift */; };
+		AAE181B925A3744000ABF470 /* CollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE181B725A3744000ABF470 /* CollectionViewItem.swift */; };
+		AAE181BA25A3744000ABF470 /* CollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE181B825A3744000ABF470 /* CollectionViewItem.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +106,9 @@
 		AAC11D92259E1EA900C73847 /* MyMacOSApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMacOSApp.xcdatamodel; sourceTree = "<group>"; };
 		AAD0FB98259F5FA800B16623 /* SharingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingVC.swift; sourceTree = "<group>"; };
 		AADA0675259DF8CD00C05961 /* KeyboardEventsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardEventsVC.swift; sourceTree = "<group>"; };
+		AAE181AD25A3730200ABF470 /* CompositionalLayoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayoutVC.swift; sourceTree = "<group>"; };
+		AAE181B725A3744000ABF470 /* CollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewItem.swift; sourceTree = "<group>"; };
+		AAE181B825A3744000ABF470 /* CollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +183,9 @@
 				AA20CDC625A35790004AF165 /* PresentationAnimatorVC.swift */,
 				AA20CDC925A35832004AF165 /* PresentationAnimatorVC2.swift */,
 				AA20CDCC25A35908004AF165 /* ModalPresentationAnimator.swift */,
+				AAE181AD25A3730200ABF470 /* CompositionalLayoutVC.swift */,
+				AAE181B725A3744000ABF470 /* CollectionViewItem.swift */,
+				AAE181B825A3744000ABF470 /* CollectionViewItem.xib */,
 				AAC11D91259E1EA900C73847 /* MyMacOSApp.xcdatamodeld */,
 				AA3359EF258E31EE003AA3A3 /* Assets.xcassets */,
 				AA3359F1258E31EE003AA3A3 /* Main.storyboard */,
@@ -244,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB3F328259F4D6E00FC4C05 /* MyCollectionViewItem.xib in Resources */,
+				AAE181BA25A3744000ABF470 /* CollectionViewItem.xib in Resources */,
 				AA3359F0258E31EE003AA3A3 /* Assets.xcassets in Resources */,
 				AA3359F3258E31EE003AA3A3 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +271,7 @@
 				AA1107CB259B7DBD00AD43C3 /* DatePickerVC.swift in Sources */,
 				AAB3F327259F4D6E00FC4C05 /* MyCollectionViewItem.swift in Sources */,
 				AA4413D325A09AE80021558D /* ViewBasedTableVC.swift in Sources */,
+				AAE181B925A3744000ABF470 /* CollectionViewItem.swift in Sources */,
 				AA6BDD53259F361400A422AA /* AlertVC.swift in Sources */,
 				AAD0FB99259F5FA800B16623 /* SharingVC.swift in Sources */,
 				AA213E2225A21F9300A14D7C /* TableDiffableVC.swift in Sources */,
@@ -288,6 +299,7 @@
 				AA85A48625A2F11C00A377AB /* QuickLookTableView.swift in Sources */,
 				AA1107CE259B81FC00AD43C3 /* SliderVC.swift in Sources */,
 				AABAF6C225A31772007274E9 /* CircleView.swift in Sources */,
+				AAE181AE25A3730200ABF470 /* CompositionalLayoutVC.swift in Sources */,
 				AA20CDC725A35790004AF165 /* PresentationAnimatorVC.swift in Sources */,
 				AABE9346259F66E400D83927 /* SplitViewVC.swift in Sources */,
 				AA3359EC258E31EE003AA3A3 /* AppDelegate.swift in Sources */,
