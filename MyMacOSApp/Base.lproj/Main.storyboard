@@ -1790,11 +1790,11 @@
         <scene sceneID="HWt-7z-Nl2">
             <objects>
                 <viewController storyboardIdentifier="AutoLayoutVC" id="eFP-Yg-Y07" customClass="AutoLayoutVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" wantsLayer="YES" id="sw3-51-J6c">
+                    <view key="view" id="sw3-51-J6c">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <customView wantsLayer="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QnM-F9-hV4">
+                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QnM-F9-hV4">
                                 <rect key="frame" x="144" y="102" width="163" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </customView>
@@ -2313,6 +2313,64 @@
                 <customObject id="SBk-AN-0p6" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="766" y="6390"/>
+        </scene>
+        <!--Presentation AnimatorVC-->
+        <scene sceneID="PIK-SF-sez">
+            <objects>
+                <viewController storyboardIdentifier="PresentationAnimatorVC" id="APm-Sb-eE8" customClass="PresentationAnimatorVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="LlD-16-btG">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DZK-Or-llY">
+                                <rect key="frame" x="185" y="253" width="81" height="32"/>
+                                <buttonCell key="cell" type="push" title="Present" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="9uP-3M-Zdc">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="clickPresentButton:" target="APm-Sb-eE8" id="NNS-ip-mUc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="DZK-Or-llY" firstAttribute="centerX" secondItem="LlD-16-btG" secondAttribute="centerX" id="0Nz-m7-uWV"/>
+                            <constraint firstItem="DZK-Or-llY" firstAttribute="top" secondItem="LlD-16-btG" secondAttribute="top" constant="20" symbolic="YES" id="UHW-el-uFI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="KDh-tH-bfO" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="766" y="6772"/>
+        </scene>
+        <!--Presentation AnimatorVC2-->
+        <scene sceneID="c02-2Z-dlP">
+            <objects>
+                <viewController storyboardIdentifier="PresentationAnimatorVC2" id="Lpd-iF-i6L" customClass="PresentationAnimatorVC2" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="dTF-jM-PTt">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="qtb-eD-fcg">
+                                <rect key="frame" x="185" y="133" width="81" height="32"/>
+                                <buttonCell key="cell" type="push" title="Dismiss" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="EzA-HI-LeP">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="clickDismissButton:" target="Lpd-iF-i6L" id="PVe-cX-QzR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="qtb-eD-fcg" firstAttribute="centerY" secondItem="dTF-jM-PTt" secondAttribute="centerY" id="tpe-qp-nxb"/>
+                            <constraint firstItem="qtb-eD-fcg" firstAttribute="centerX" secondItem="dTF-jM-PTt" secondAttribute="centerX" id="z1A-Ra-fYv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="dyt-HH-kwd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="760" y="7155"/>
         </scene>
         <!--Window Controller-->
         <scene sceneID="oiS-g7-FKc">

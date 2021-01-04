@@ -9,7 +9,7 @@ import Cocoa
 
 class ListViewController: NSViewController, NSTableViewDataSource, NSTableViewDelegate {
     
-    private var subjects = ["TableViewVC", "DatePickerVC", "SliderVC", "PopUpButtonVC", "ImageViewVC", "MenuVC", "DragAndDropVC", "MouseEventsVC", "KeyboardEventsVC", "CoreDataVC", "PopoverVC", "AlertVC", "CustomSheetVC", "CollectionViewVC", "SharingVC", "SplitViewVC", "PrintVC", "OutlineVC", "ViewBasedTableVC", "CustomButtonVC", "DragAndDropTableVC", "TableDiffableVC", "QuickLookVC", "UndoManagerVC", "GestureVC", "AutoLayoutVC"]
+    private var subjects = ["TableViewVC", "DatePickerVC", "SliderVC", "PopUpButtonVC", "ImageViewVC", "MenuVC", "DragAndDropVC", "MouseEventsVC", "KeyboardEventsVC", "CoreDataVC", "PopoverVC", "AlertVC", "CustomSheetVC", "CollectionViewVC", "SharingVC", "SplitViewVC", "PrintVC", "OutlineVC", "ViewBasedTableVC", "CustomButtonVC", "DragAndDropTableVC", "TableDiffableVC", "QuickLookVC", "UndoManagerVC", "GestureVC", "AutoLayoutVC", "PresentationAnimatorVC"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -87,6 +87,8 @@ class ListViewController: NSViewController, NSTableViewDataSource, NSTableViewDe
         } else if let vc = c as? GestureVC {
             splitViewController.children[1] = vc
         } else if let vc = c as? AutoLayoutVC {
+            splitViewController.children[1] = vc
+        } else if let vc = c as? PresentationAnimatorVC {
             splitViewController.children[1] = vc
         }
     }

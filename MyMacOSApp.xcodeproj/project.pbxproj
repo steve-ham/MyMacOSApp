@@ -20,6 +20,9 @@
 		AA13CD7D259DC6600099BC03 /* MouseEventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13CD7C259DC6600099BC03 /* MouseEventsVC.swift */; };
 		AA166E2825A0C0F000E9018F /* CustomButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA166E2725A0C0F000E9018F /* CustomButtonVC.swift */; };
 		AA20CDC425A35263004AF165 /* AutoLayoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA20CDC325A35263004AF165 /* AutoLayoutVC.swift */; };
+		AA20CDC725A35790004AF165 /* PresentationAnimatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA20CDC625A35790004AF165 /* PresentationAnimatorVC.swift */; };
+		AA20CDCA25A35832004AF165 /* PresentationAnimatorVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA20CDC925A35832004AF165 /* PresentationAnimatorVC2.swift */; };
+		AA20CDCD25A35908004AF165 /* ModalPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA20CDCC25A35908004AF165 /* ModalPresentationAnimator.swift */; };
 		AA213E2225A21F9300A14D7C /* TableDiffableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA213E2125A21F9300A14D7C /* TableDiffableVC.swift */; };
 		AA213E2625A2211400A14D7C /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA213E2525A2211400A14D7C /* Food.swift */; };
 		AA32709D25A061A1002B2522 /* OutlineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32709C25A061A1002B2522 /* OutlineVC.swift */; };
@@ -65,6 +68,9 @@
 		AA13CD7C259DC6600099BC03 /* MouseEventsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseEventsVC.swift; sourceTree = "<group>"; };
 		AA166E2725A0C0F000E9018F /* CustomButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonVC.swift; sourceTree = "<group>"; };
 		AA20CDC325A35263004AF165 /* AutoLayoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutVC.swift; sourceTree = "<group>"; };
+		AA20CDC625A35790004AF165 /* PresentationAnimatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationAnimatorVC.swift; sourceTree = "<group>"; };
+		AA20CDC925A35832004AF165 /* PresentationAnimatorVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationAnimatorVC2.swift; sourceTree = "<group>"; };
+		AA20CDCC25A35908004AF165 /* ModalPresentationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPresentationAnimator.swift; sourceTree = "<group>"; };
 		AA213E2125A21F9300A14D7C /* TableDiffableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDiffableVC.swift; sourceTree = "<group>"; };
 		AA213E2525A2211400A14D7C /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		AA32709C25A061A1002B2522 /* OutlineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineVC.swift; sourceTree = "<group>"; };
@@ -168,6 +174,9 @@
 				AABAF6C125A31772007274E9 /* CircleView.swift */,
 				AA7D5D5D25A345A500D92CF8 /* GestureVC.swift */,
 				AA20CDC325A35263004AF165 /* AutoLayoutVC.swift */,
+				AA20CDC625A35790004AF165 /* PresentationAnimatorVC.swift */,
+				AA20CDC925A35832004AF165 /* PresentationAnimatorVC2.swift */,
+				AA20CDCC25A35908004AF165 /* ModalPresentationAnimator.swift */,
 				AAC11D91259E1EA900C73847 /* MyMacOSApp.xcdatamodeld */,
 				AA3359EF258E31EE003AA3A3 /* Assets.xcassets */,
 				AA3359F1258E31EE003AA3A3 /* Main.storyboard */,
@@ -273,15 +282,18 @@
 				AA13CD79259DB8DF0099BC03 /* DragAndDropVC.swift in Sources */,
 				AA20CDC425A35263004AF165 /* AutoLayoutVC.swift in Sources */,
 				AA0EBEE3259C8062003CC713 /* MenuVC.swift in Sources */,
+				AA20CDCD25A35908004AF165 /* ModalPresentationAnimator.swift in Sources */,
 				AA32709D25A061A1002B2522 /* OutlineVC.swift in Sources */,
 				AAC11D93259E1EA900C73847 /* MyMacOSApp.xcdatamodeld in Sources */,
 				AA85A48625A2F11C00A377AB /* QuickLookTableView.swift in Sources */,
 				AA1107CE259B81FC00AD43C3 /* SliderVC.swift in Sources */,
 				AABAF6C225A31772007274E9 /* CircleView.swift in Sources */,
+				AA20CDC725A35790004AF165 /* PresentationAnimatorVC.swift in Sources */,
 				AABE9346259F66E400D83927 /* SplitViewVC.swift in Sources */,
 				AA3359EC258E31EE003AA3A3 /* AppDelegate.swift in Sources */,
 				AA0C05F525A18D5C009351A8 /* DragAndDropImage.swift in Sources */,
 				AAB160F9259E2B590026410E /* PopoverVC.swift in Sources */,
+				AA20CDCA25A35832004AF165 /* PresentationAnimatorVC2.swift in Sources */,
 				AA7D5D5E25A345A500D92CF8 /* GestureVC.swift in Sources */,
 				AABAF6BC25A31702007274E9 /* UndoManagerVC.swift in Sources */,
 				AA5B271225A050B000B7A2A5 /* PrintVC.swift in Sources */,
