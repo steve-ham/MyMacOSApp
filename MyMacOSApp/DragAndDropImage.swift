@@ -8,7 +8,7 @@
 import Cocoa
 
 class DragAndDropImage: NSObject, NSPasteboardWriting, NSPasteboardReading {
-    
+    var id = UUID().uuidString
     var name: String!
     var nsURL: NSURL!
     
