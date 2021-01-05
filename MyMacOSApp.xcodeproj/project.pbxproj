@@ -66,6 +66,8 @@
 		AAE181AE25A3730200ABF470 /* CompositionalLayoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE181AD25A3730200ABF470 /* CompositionalLayoutVC.swift */; };
 		AAE181B925A3744000ABF470 /* CollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE181B725A3744000ABF470 /* CollectionViewItem.swift */; };
 		AAE181BA25A3744000ABF470 /* CollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE181B825A3744000ABF470 /* CollectionViewItem.xib */; };
+		AAE8CA4525A4849D007B21AE /* BoxViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8CA4425A4849D007B21AE /* BoxViewVC.swift */; };
+		AAE8CA4A25A48790007B21AE /* BorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8CA4925A48790007B21AE /* BorderedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -131,6 +133,8 @@
 		AAE181AD25A3730200ABF470 /* CompositionalLayoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayoutVC.swift; sourceTree = "<group>"; };
 		AAE181B725A3744000ABF470 /* CollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewItem.swift; sourceTree = "<group>"; };
 		AAE181B825A3744000ABF470 /* CollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewItem.xib; sourceTree = "<group>"; };
+		AAE8CA4425A4849D007B21AE /* BoxViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxViewVC.swift; sourceTree = "<group>"; };
+		AAE8CA4925A48790007B21AE /* BorderedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +223,8 @@
 				AA6300F625A42004000C3A20 /* CollectionDiffableVC.swift */,
 				AA8FA2EC25A438A80030FD0A /* SystemIcon.swift */,
 				AA8FA2E725A437200030FD0A /* CollectionViewItem2.swift */,
+				AAE8CA4425A4849D007B21AE /* BoxViewVC.swift */,
+				AAE8CA4925A48790007B21AE /* BorderedView.swift */,
 				AA8FA2E825A437200030FD0A /* CollectionViewItem2.xib */,
 				AA3359EF258E31EE003AA3A3 /* Assets.xcassets */,
 				AA3359F1258E31EE003AA3A3 /* Main.storyboard */,
@@ -319,6 +325,7 @@
 				AA1107D5259B855700AD43C3 /* ImageViewVC.swift in Sources */,
 				AA3270A025A06237002B2522 /* Person.swift in Sources */,
 				AA213E2625A2211400A14D7C /* Food.swift in Sources */,
+				AAE8CA4525A4849D007B21AE /* BoxViewVC.swift in Sources */,
 				AA1107D1259B836900AD43C3 /* PopUpButtonVC.swift in Sources */,
 				AA10CAAB25A4181B00CA666B /* WindowController2.swift in Sources */,
 				AABAF6BF25A3174E007274E9 /* DrawingView.swift in Sources */,
@@ -351,6 +358,7 @@
 				AAB160F9259E2B590026410E /* PopoverVC.swift in Sources */,
 				AA20CDCA25A35832004AF165 /* PresentationAnimatorVC2.swift in Sources */,
 				AA7D5D5E25A345A500D92CF8 /* GestureVC.swift in Sources */,
+				AAE8CA4A25A48790007B21AE /* BorderedView.swift in Sources */,
 				AABAF6BC25A31702007274E9 /* UndoManagerVC.swift in Sources */,
 				AA5B271225A050B000B7A2A5 /* PrintVC.swift in Sources */,
 				AA3359FD258E345B003AA3A3 /* ListViewController.swift in Sources */,
