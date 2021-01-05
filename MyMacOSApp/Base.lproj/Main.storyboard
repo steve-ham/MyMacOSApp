@@ -2635,6 +2635,19 @@
             </objects>
             <point key="canvasLocation" x="760" y="7534"/>
         </scene>
+        <!--GridVC-->
+        <scene sceneID="Bxh-zX-QJT">
+            <objects>
+                <viewController storyboardIdentifier="GridVC" id="fC1-Ea-Ubg" customClass="GridVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="ta9-aZ-x7n">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="fOB-TO-ohl" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="760" y="7923"/>
+        </scene>
         <!--Window Controller-->
         <scene sceneID="oiS-g7-FKc">
             <objects>

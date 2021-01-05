@@ -9,7 +9,7 @@ import Cocoa
 
 class ListViewController: NSViewController, NSTableViewDataSource, NSTableViewDelegate {
     
-    private var subjects = ["TableViewVC", "DatePickerVC", "SliderVC", "PopUpButtonVC", "ImageViewVC", "MenuVC", "DragAndDropVC", "MouseEventsVC", "KeyboardEventsVC", "CoreDataVC", "PopoverVC", "AlertVC", "CustomSheetVC", "CollectionViewVC", "SharingVC", "SplitViewVC", "PrintVC", "OutlineVC", "ViewBasedTableVC", "CustomButtonVC", "DragAndDropTableVC", "QuickLookVC", "UndoManagerVC", "GestureVC", "AutoLayoutVC", "PresentationAnimatorVC", "CompositionalLayoutVC", "WindowControllerVC", "TableDiffableVC", "CollectionDiffableVC", "BoxViewVC"]
+    private var subjects = ["TableViewVC", "DatePickerVC", "SliderVC", "PopUpButtonVC", "ImageViewVC", "MenuVC", "DragAndDropVC", "MouseEventsVC", "KeyboardEventsVC", "CoreDataVC", "PopoverVC", "AlertVC", "CustomSheetVC", "CollectionViewVC", "SharingVC", "SplitViewVC", "PrintVC", "OutlineVC", "ViewBasedTableVC", "CustomButtonVC", "DragAndDropTableVC", "QuickLookVC", "UndoManagerVC", "GestureVC", "AutoLayoutVC", "PresentationAnimatorVC", "CompositionalLayoutVC", "WindowControllerVC", "TableDiffableVC", "CollectionDiffableVC", "BoxViewVC", "GridVC"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -99,6 +99,8 @@ class ListViewController: NSViewController, NSTableViewDataSource, NSTableViewDe
         } else if let vc = c as? CollectionDiffableVC {
             splitViewController.children[1] = vc
         } else if let vc = c as? BoxViewVC {
+            splitViewController.children[1] = vc
+        } else if let vc = c as? GridVC {
             splitViewController.children[1] = vc
         }
     }

@@ -68,6 +68,7 @@
 		AAE181BA25A3744000ABF470 /* CollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE181B825A3744000ABF470 /* CollectionViewItem.xib */; };
 		AAE8CA4525A4849D007B21AE /* BoxViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8CA4425A4849D007B21AE /* BoxViewVC.swift */; };
 		AAE8CA4A25A48790007B21AE /* BorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8CA4925A48790007B21AE /* BorderedView.swift */; };
+		AAE8CA4F25A492CB007B21AE /* GridVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8CA4E25A492CB007B21AE /* GridVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -135,6 +136,7 @@
 		AAE181B825A3744000ABF470 /* CollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewItem.xib; sourceTree = "<group>"; };
 		AAE8CA4425A4849D007B21AE /* BoxViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxViewVC.swift; sourceTree = "<group>"; };
 		AAE8CA4925A48790007B21AE /* BorderedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedView.swift; sourceTree = "<group>"; };
+		AAE8CA4E25A492CB007B21AE /* GridVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +228,7 @@
 				AAE8CA4425A4849D007B21AE /* BoxViewVC.swift */,
 				AAE8CA4925A48790007B21AE /* BorderedView.swift */,
 				AA8FA2E825A437200030FD0A /* CollectionViewItem2.xib */,
+				AAE8CA4E25A492CB007B21AE /* GridVC.swift */,
 				AA3359EF258E31EE003AA3A3 /* Assets.xcassets */,
 				AA3359F1258E31EE003AA3A3 /* Main.storyboard */,
 				AA3359F4258E31EE003AA3A3 /* Info.plist */,
@@ -346,6 +349,7 @@
 				AA10CAA725A4172A00CA666B /* ViewController.swift in Sources */,
 				AAC11D93259E1EA900C73847 /* MyMacOSApp.xcdatamodeld in Sources */,
 				AA85A48625A2F11C00A377AB /* QuickLookTableView.swift in Sources */,
+				AAE8CA4F25A492CB007B21AE /* GridVC.swift in Sources */,
 				AA1107CE259B81FC00AD43C3 /* SliderVC.swift in Sources */,
 				AABAF6C225A31772007274E9 /* CircleView.swift in Sources */,
 				AAE181AE25A3730200ABF470 /* CompositionalLayoutVC.swift in Sources */,
