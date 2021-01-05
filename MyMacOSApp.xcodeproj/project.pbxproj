@@ -12,6 +12,10 @@
 		AA0EBEE3259C8062003CC713 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0EBEE2259C8062003CC713 /* MenuVC.swift */; };
 		AA0EBEE6259C8442003CC713 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0EBEE5259C8442003CC713 /* WindowController.swift */; };
 		AA0EBEEC259C8744003CC713 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0EBEEB259C8744003CC713 /* SplitViewController.swift */; };
+		AA10CAA725A4172A00CA666B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10CAA525A4172A00CA666B /* ViewController.swift */; };
+		AA10CAA825A4172A00CA666B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA10CAA625A4172A00CA666B /* ViewController.xib */; };
+		AA10CAAB25A4181B00CA666B /* WindowController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10CAAA25A4181B00CA666B /* WindowController2.swift */; };
+		AA10CAAF25A4187B00CA666B /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10CAAE25A4187B00CA666B /* Window.swift */; };
 		AA1107CB259B7DBD00AD43C3 /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1107CA259B7DBD00AD43C3 /* DatePickerVC.swift */; };
 		AA1107CE259B81FC00AD43C3 /* SliderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1107CD259B81FC00AD43C3 /* SliderVC.swift */; };
 		AA1107D1259B836900AD43C3 /* PopUpButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1107D0259B836900AD43C3 /* PopUpButtonVC.swift */; };
@@ -44,6 +48,9 @@
 		AAB3F31B259F4BDF00FC4C05 /* CollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3F31A259F4BDF00FC4C05 /* CollectionViewVC.swift */; };
 		AAB3F327259F4D6E00FC4C05 /* MyCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3F325259F4D6E00FC4C05 /* MyCollectionViewItem.swift */; };
 		AAB3F328259F4D6E00FC4C05 /* MyCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB3F326259F4D6E00FC4C05 /* MyCollectionViewItem.xib */; };
+		AAB8344C25A4150800A39FB7 /* WindowControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB8344B25A4150800A39FB7 /* WindowControllerVC.swift */; };
+		AAB8345025A415F000A39FB7 /* WindowController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB8344E25A415F000A39FB7 /* WindowController1.swift */; };
+		AAB8345125A415F000A39FB7 /* WindowController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB8344F25A415F000A39FB7 /* WindowController1.xib */; };
 		AABAF6BC25A31702007274E9 /* UndoManagerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABAF6BB25A31702007274E9 /* UndoManagerVC.swift */; };
 		AABAF6BF25A3174E007274E9 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABAF6BE25A3174E007274E9 /* DrawingView.swift */; };
 		AABAF6C225A31772007274E9 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABAF6C125A31772007274E9 /* CircleView.swift */; };
@@ -63,6 +70,10 @@
 		AA0EBEE2259C8062003CC713 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		AA0EBEE5259C8442003CC713 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		AA0EBEEB259C8744003CC713 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		AA10CAA525A4172A00CA666B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA10CAA625A4172A00CA666B /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		AA10CAAA25A4181B00CA666B /* WindowController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController2.swift; sourceTree = "<group>"; };
+		AA10CAAE25A4187B00CA666B /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 		AA1107CA259B7DBD00AD43C3 /* DatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
 		AA1107CD259B81FC00AD43C3 /* SliderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderVC.swift; sourceTree = "<group>"; };
 		AA1107D0259B836900AD43C3 /* PopUpButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpButtonVC.swift; sourceTree = "<group>"; };
@@ -98,6 +109,9 @@
 		AAB3F31A259F4BDF00FC4C05 /* CollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewVC.swift; sourceTree = "<group>"; };
 		AAB3F325259F4D6E00FC4C05 /* MyCollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewItem.swift; sourceTree = "<group>"; };
 		AAB3F326259F4D6E00FC4C05 /* MyCollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewItem.xib; sourceTree = "<group>"; };
+		AAB8344B25A4150800A39FB7 /* WindowControllerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowControllerVC.swift; sourceTree = "<group>"; };
+		AAB8344E25A415F000A39FB7 /* WindowController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController1.swift; sourceTree = "<group>"; };
+		AAB8344F25A415F000A39FB7 /* WindowController1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WindowController1.xib; sourceTree = "<group>"; };
 		AABAF6BB25A31702007274E9 /* UndoManagerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoManagerVC.swift; sourceTree = "<group>"; };
 		AABAF6BE25A3174E007274E9 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		AABAF6C125A31772007274E9 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
@@ -155,6 +169,7 @@
 				AA13CD7C259DC6600099BC03 /* MouseEventsVC.swift */,
 				AADA0675259DF8CD00C05961 /* KeyboardEventsVC.swift */,
 				AAC11D8E259E1E3800C73847 /* CoreDataVC.swift */,
+				AAC11D91259E1EA900C73847 /* MyMacOSApp.xcdatamodeld */,
 				AAB160F8259E2B590026410E /* PopoverVC.swift */,
 				AAA46FB1259F17FD007206C9 /* StatusBarVC.swift */,
 				AA6BDD52259F361400A422AA /* AlertVC.swift */,
@@ -186,7 +201,13 @@
 				AAE181AD25A3730200ABF470 /* CompositionalLayoutVC.swift */,
 				AAE181B725A3744000ABF470 /* CollectionViewItem.swift */,
 				AAE181B825A3744000ABF470 /* CollectionViewItem.xib */,
-				AAC11D91259E1EA900C73847 /* MyMacOSApp.xcdatamodeld */,
+				AAB8344B25A4150800A39FB7 /* WindowControllerVC.swift */,
+				AAB8344E25A415F000A39FB7 /* WindowController1.swift */,
+				AAB8344F25A415F000A39FB7 /* WindowController1.xib */,
+				AA10CAA525A4172A00CA666B /* ViewController.swift */,
+				AA10CAA625A4172A00CA666B /* ViewController.xib */,
+				AA10CAAA25A4181B00CA666B /* WindowController2.swift */,
+				AA10CAAE25A4187B00CA666B /* Window.swift */,
 				AA3359EF258E31EE003AA3A3 /* Assets.xcassets */,
 				AA3359F1258E31EE003AA3A3 /* Main.storyboard */,
 				AA3359F4258E31EE003AA3A3 /* Info.plist */,
@@ -252,10 +273,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA10CAA825A4172A00CA666B /* ViewController.xib in Resources */,
 				AAB3F328259F4D6E00FC4C05 /* MyCollectionViewItem.xib in Resources */,
 				AAE181BA25A3744000ABF470 /* CollectionViewItem.xib in Resources */,
 				AA3359F0258E31EE003AA3A3 /* Assets.xcassets in Resources */,
 				AA3359F3258E31EE003AA3A3 /* Main.storyboard in Resources */,
+				AAB8345125A415F000A39FB7 /* WindowController1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +291,7 @@
 			files = (
 				AA0EBEE6259C8442003CC713 /* WindowController.swift in Sources */,
 				AA13CD7D259DC6600099BC03 /* MouseEventsVC.swift in Sources */,
+				AA10CAAF25A4187B00CA666B /* Window.swift in Sources */,
 				AA1107CB259B7DBD00AD43C3 /* DatePickerVC.swift in Sources */,
 				AAB3F327259F4D6E00FC4C05 /* MyCollectionViewItem.swift in Sources */,
 				AA4413D325A09AE80021558D /* ViewBasedTableVC.swift in Sources */,
@@ -282,6 +306,7 @@
 				AA3270A025A06237002B2522 /* Person.swift in Sources */,
 				AA213E2625A2211400A14D7C /* Food.swift in Sources */,
 				AA1107D1259B836900AD43C3 /* PopUpButtonVC.swift in Sources */,
+				AA10CAAB25A4181B00CA666B /* WindowController2.swift in Sources */,
 				AABAF6BF25A3174E007274E9 /* DrawingView.swift in Sources */,
 				AAB3F31B259F4BDF00FC4C05 /* CollectionViewVC.swift in Sources */,
 				AA85A48325A2F0BE00A377AB /* QuickLookVC.swift in Sources */,
@@ -295,6 +320,7 @@
 				AA0EBEE3259C8062003CC713 /* MenuVC.swift in Sources */,
 				AA20CDCD25A35908004AF165 /* ModalPresentationAnimator.swift in Sources */,
 				AA32709D25A061A1002B2522 /* OutlineVC.swift in Sources */,
+				AA10CAA725A4172A00CA666B /* ViewController.swift in Sources */,
 				AAC11D93259E1EA900C73847 /* MyMacOSApp.xcdatamodeld in Sources */,
 				AA85A48625A2F11C00A377AB /* QuickLookTableView.swift in Sources */,
 				AA1107CE259B81FC00AD43C3 /* SliderVC.swift in Sources */,
@@ -302,8 +328,10 @@
 				AAE181AE25A3730200ABF470 /* CompositionalLayoutVC.swift in Sources */,
 				AA20CDC725A35790004AF165 /* PresentationAnimatorVC.swift in Sources */,
 				AABE9346259F66E400D83927 /* SplitViewVC.swift in Sources */,
+				AAB8344C25A4150800A39FB7 /* WindowControllerVC.swift in Sources */,
 				AA3359EC258E31EE003AA3A3 /* AppDelegate.swift in Sources */,
 				AA0C05F525A18D5C009351A8 /* DragAndDropImage.swift in Sources */,
+				AAB8345025A415F000A39FB7 /* WindowController1.swift in Sources */,
 				AAB160F9259E2B590026410E /* PopoverVC.swift in Sources */,
 				AA20CDCA25A35832004AF165 /* PresentationAnimatorVC2.swift in Sources */,
 				AA7D5D5E25A345A500D92CF8 /* GestureVC.swift in Sources */,
