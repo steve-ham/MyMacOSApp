@@ -38,11 +38,15 @@
 		AA335A00258E36A6003AA3A3 /* TableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3359FF258E36A6003AA3A3 /* TableViewVC.swift */; };
 		AA4413D325A09AE80021558D /* ViewBasedTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4413D225A09AE80021558D /* ViewBasedTableVC.swift */; };
 		AA5B271225A050B000B7A2A5 /* PrintVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5B271125A050B000B7A2A5 /* PrintVC.swift */; };
+		AA6300F725A42004000C3A20 /* CollectionDiffableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6300F625A42004000C3A20 /* CollectionDiffableVC.swift */; };
 		AA6BDD53259F361400A422AA /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6BDD52259F361400A422AA /* AlertVC.swift */; };
 		AA6BDD56259F3E8500A422AA /* CustomSheetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6BDD55259F3E8500A422AA /* CustomSheetVC.swift */; };
 		AA7D5D5E25A345A500D92CF8 /* GestureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D5D5D25A345A500D92CF8 /* GestureVC.swift */; };
 		AA85A48325A2F0BE00A377AB /* QuickLookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85A48225A2F0BE00A377AB /* QuickLookVC.swift */; };
 		AA85A48625A2F11C00A377AB /* QuickLookTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85A48525A2F11C00A377AB /* QuickLookTableView.swift */; };
+		AA8FA2E925A437200030FD0A /* CollectionViewItem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FA2E725A437200030FD0A /* CollectionViewItem2.swift */; };
+		AA8FA2EA25A437200030FD0A /* CollectionViewItem2.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA8FA2E825A437200030FD0A /* CollectionViewItem2.xib */; };
+		AA8FA2ED25A438A80030FD0A /* SystemIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FA2EC25A438A80030FD0A /* SystemIcon.swift */; };
 		AAA46FB2259F17FD007206C9 /* StatusBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA46FB1259F17FD007206C9 /* StatusBarVC.swift */; };
 		AAB160F9259E2B590026410E /* PopoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB160F8259E2B590026410E /* PopoverVC.swift */; };
 		AAB3F31B259F4BDF00FC4C05 /* CollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3F31A259F4BDF00FC4C05 /* CollectionViewVC.swift */; };
@@ -99,11 +103,15 @@
 		AA3359FF258E36A6003AA3A3 /* TableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewVC.swift; sourceTree = "<group>"; };
 		AA4413D225A09AE80021558D /* ViewBasedTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBasedTableVC.swift; sourceTree = "<group>"; };
 		AA5B271125A050B000B7A2A5 /* PrintVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintVC.swift; sourceTree = "<group>"; };
+		AA6300F625A42004000C3A20 /* CollectionDiffableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDiffableVC.swift; sourceTree = "<group>"; };
 		AA6BDD52259F361400A422AA /* AlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
 		AA6BDD55259F3E8500A422AA /* CustomSheetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSheetVC.swift; sourceTree = "<group>"; };
 		AA7D5D5D25A345A500D92CF8 /* GestureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureVC.swift; sourceTree = "<group>"; };
 		AA85A48225A2F0BE00A377AB /* QuickLookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookVC.swift; sourceTree = "<group>"; };
 		AA85A48525A2F11C00A377AB /* QuickLookTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookTableView.swift; sourceTree = "<group>"; };
+		AA8FA2E725A437200030FD0A /* CollectionViewItem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewItem2.swift; sourceTree = "<group>"; };
+		AA8FA2E825A437200030FD0A /* CollectionViewItem2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewItem2.xib; sourceTree = "<group>"; };
+		AA8FA2EC25A438A80030FD0A /* SystemIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIcon.swift; sourceTree = "<group>"; };
 		AAA46FB1259F17FD007206C9 /* StatusBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarVC.swift; sourceTree = "<group>"; };
 		AAB160F8259E2B590026410E /* PopoverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverVC.swift; sourceTree = "<group>"; };
 		AAB3F31A259F4BDF00FC4C05 /* CollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewVC.swift; sourceTree = "<group>"; };
@@ -186,8 +194,6 @@
 				AA166E2725A0C0F000E9018F /* CustomButtonVC.swift */,
 				AA0C05F025A18707009351A8 /* DragAndDropTableVC.swift */,
 				AA0C05F425A18D5C009351A8 /* DragAndDropImage.swift */,
-				AA213E2125A21F9300A14D7C /* TableDiffableVC.swift */,
-				AA213E2525A2211400A14D7C /* Food.swift */,
 				AA85A48225A2F0BE00A377AB /* QuickLookVC.swift */,
 				AA85A48525A2F11C00A377AB /* QuickLookTableView.swift */,
 				AABAF6BB25A31702007274E9 /* UndoManagerVC.swift */,
@@ -208,6 +214,12 @@
 				AA10CAA625A4172A00CA666B /* ViewController.xib */,
 				AA10CAAA25A4181B00CA666B /* WindowController2.swift */,
 				AA10CAAE25A4187B00CA666B /* Window.swift */,
+				AA213E2125A21F9300A14D7C /* TableDiffableVC.swift */,
+				AA213E2525A2211400A14D7C /* Food.swift */,
+				AA6300F625A42004000C3A20 /* CollectionDiffableVC.swift */,
+				AA8FA2EC25A438A80030FD0A /* SystemIcon.swift */,
+				AA8FA2E725A437200030FD0A /* CollectionViewItem2.swift */,
+				AA8FA2E825A437200030FD0A /* CollectionViewItem2.xib */,
 				AA3359EF258E31EE003AA3A3 /* Assets.xcassets */,
 				AA3359F1258E31EE003AA3A3 /* Main.storyboard */,
 				AA3359F4258E31EE003AA3A3 /* Info.plist */,
@@ -278,6 +290,7 @@
 				AAE181BA25A3744000ABF470 /* CollectionViewItem.xib in Resources */,
 				AA3359F0258E31EE003AA3A3 /* Assets.xcassets in Resources */,
 				AA3359F3258E31EE003AA3A3 /* Main.storyboard in Resources */,
+				AA8FA2EA25A437200030FD0A /* CollectionViewItem2.xib in Resources */,
 				AAB8345125A415F000A39FB7 /* WindowController1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA0EBEE6259C8442003CC713 /* WindowController.swift in Sources */,
+				AA8FA2ED25A438A80030FD0A /* SystemIcon.swift in Sources */,
 				AA13CD7D259DC6600099BC03 /* MouseEventsVC.swift in Sources */,
 				AA10CAAF25A4187B00CA666B /* Window.swift in Sources */,
 				AA1107CB259B7DBD00AD43C3 /* DatePickerVC.swift in Sources */,
@@ -314,10 +328,12 @@
 				AA166E2825A0C0F000E9018F /* CustomButtonVC.swift in Sources */,
 				AA0C05F125A18707009351A8 /* DragAndDropTableVC.swift in Sources */,
 				AADA0676259DF8CD00C05961 /* KeyboardEventsVC.swift in Sources */,
+				AA8FA2E925A437200030FD0A /* CollectionViewItem2.swift in Sources */,
 				AA0EBEEC259C8744003CC713 /* SplitViewController.swift in Sources */,
 				AA13CD79259DB8DF0099BC03 /* DragAndDropVC.swift in Sources */,
 				AA20CDC425A35263004AF165 /* AutoLayoutVC.swift in Sources */,
 				AA0EBEE3259C8062003CC713 /* MenuVC.swift in Sources */,
+				AA6300F725A42004000C3A20 /* CollectionDiffableVC.swift in Sources */,
 				AA20CDCD25A35908004AF165 /* ModalPresentationAnimator.swift in Sources */,
 				AA32709D25A061A1002B2522 /* OutlineVC.swift in Sources */,
 				AA10CAA725A4172A00CA666B /* ViewController.swift in Sources */,

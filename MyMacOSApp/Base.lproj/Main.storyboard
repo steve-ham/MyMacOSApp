@@ -888,8 +888,8 @@
                                         <rect key="frame" x="206" y="0.0" width="97" height="28"/>
                                         <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="gyT-p4-LpW">
                                             <font key="font" metaFont="system"/>
-                                            <date key="date" timeIntervalSinceReferenceDate="631510754.546731">
-                                                <!--2021-01-05 03:39:14 +0000-->
+                                            <date key="date" timeIntervalSinceReferenceDate="631518628.96423399">
+                                                <!--2021-01-05 05:50:28 +0000-->
                                             </date>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1760,7 +1760,7 @@
                 </viewController>
                 <customObject id="ejO-vx-2g1" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="266" y="5937"/>
+            <point key="canvasLocation" x="266" y="7534"/>
         </scene>
         <!--Undo ManagerVC-->
         <scene sceneID="Uxh-DJ-7Y9">
@@ -1784,7 +1784,7 @@
                 </viewController>
                 <customObject id="hzx-vc-IcA" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="266" y="6332"/>
+            <point key="canvasLocation" x="255" y="5996"/>
         </scene>
         <!--Auto LayoutVC-->
         <scene sceneID="HWt-7z-Nl2">
@@ -1806,7 +1806,7 @@
                 </viewController>
                 <customObject id="Rzn-sL-OCG" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="264" y="6720"/>
+            <point key="canvasLocation" x="266" y="6390"/>
         </scene>
         <!--Compositional LayoutVC-->
         <scene sceneID="mep-kf-gxK">
@@ -1859,7 +1859,7 @@
                 </viewController>
                 <customObject id="CNz-d0-Cei" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="255" y="7153"/>
+            <point key="canvasLocation" x="266" y="6772"/>
         </scene>
         <!--Window ControllerVC-->
         <scene sceneID="vOK-Lb-BGO">
@@ -1911,7 +1911,7 @@
                 </viewController>
                 <customObject id="viE-Ty-vGv" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="255" y="7534"/>
+            <point key="canvasLocation" x="264" y="7155"/>
         </scene>
         <!--Custom SheetVC-->
         <scene sceneID="aZD-by-VLO">
@@ -2004,13 +2004,13 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <scrollView autohidesScrollers="YES" horizontalLineScroll="50" horizontalPageScroll="10" verticalLineScroll="50" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1H-Vx-RBu">
-                                <rect key="frame" x="0.0" y="132" width="450" height="308"/>
+                                <rect key="frame" x="0.0" y="244" width="450" height="196"/>
                                 <clipView key="contentView" id="VfO-Vc-KDf">
-                                    <rect key="frame" x="1" y="1" width="448" height="306"/>
+                                    <rect key="frame" x="1" y="1" width="448" height="194"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="50" rowSizeStyle="automatic" headerView="4Go-7J-xZs" viewBased="YES" id="xlv-FC-KNr">
-                                            <rect key="frame" x="0.0" y="0.0" width="448" height="278"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="448" height="166"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <size key="intercellSpacing" width="17" height="0.0"/>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -2091,7 +2091,7 @@
                                     </subviews>
                                 </clipView>
                                 <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="FPe-5Z-jH4">
-                                    <rect key="frame" x="1" y="347" width="448" height="16"/>
+                                    <rect key="frame" x="1" y="235" width="448" height="16"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="mQC-vH-OIP">
@@ -2104,10 +2104,10 @@
                                 </tableHeaderView>
                             </scrollView>
                             <stackView distribution="fill" orientation="horizontal" alignment="top" spacing="16" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g5i-0e-FWZ">
-                                <rect key="frame" x="20" y="20" width="130" height="104"/>
+                                <rect key="frame" x="20" y="20" width="130" height="216"/>
                                 <subviews>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lxc-CZ-9eD">
-                                        <rect key="frame" x="-7" y="77" width="59" height="32"/>
+                                        <rect key="frame" x="-7" y="189" width="59" height="32"/>
                                         <buttonCell key="cell" type="push" title="Add" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="CLN-zi-SCe">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
@@ -2117,7 +2117,7 @@
                                         </connections>
                                     </button>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xbd-jP-kfW">
-                                        <rect key="frame" x="54" y="77" width="83" height="32"/>
+                                        <rect key="frame" x="54" y="189" width="83" height="32"/>
                                         <buttonCell key="cell" type="push" title="Remove" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="XpM-9o-tas">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
@@ -2477,6 +2477,105 @@
             </objects>
             <point key="canvasLocation" x="760" y="7155"/>
         </scene>
+        <!--Collection DiffableVC-->
+        <scene sceneID="iF9-L1-0wL">
+            <objects>
+                <viewController storyboardIdentifier="CollectionDiffableVC" id="8cV-cq-uzk" customClass="CollectionDiffableVC" customModule="MyMacOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="3Df-mk-1kC">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <stackView distribution="fill" orientation="horizontal" alignment="bottom" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dsh-fO-qpz">
+                                <rect key="frame" x="20" y="258" width="410" height="22"/>
+                                <subviews>
+                                    <searchField wantsLayer="YES" verticalHuggingPriority="750" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bj2-Wn-7yy">
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="22"/>
+                                        <searchFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" borderStyle="bezel" usesSingleLineMode="YES" bezelStyle="round" id="ObC-Ez-6nb">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </searchFieldCell>
+                                        <connections>
+                                            <outlet property="delegate" destination="8cV-cq-uzk" id="GNu-jy-mVN"/>
+                                        </connections>
+                                    </searchField>
+                                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5Ln-rX-0xN">
+                                        <rect key="frame" x="335" y="-7" width="44" height="32"/>
+                                        <buttonCell key="cell" type="push" bezelStyle="rounded" image="NSAddTemplate" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bxD-Ik-XHW">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="clickAddButton:" target="8cV-cq-uzk" id="edQ-JF-lvP"/>
+                                        </connections>
+                                    </button>
+                                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jOz-P0-Y97">
+                                        <rect key="frame" x="373" y="-7" width="44" height="32"/>
+                                        <buttonCell key="cell" type="push" bezelStyle="rounded" image="NSMenuMixedStateTemplate" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="f6U-MP-Mmp">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="clickMinusButton:" target="8cV-cq-uzk" id="gVd-fj-7x7"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <visibilityPriorities>
+                                    <integer value="1000"/>
+                                    <integer value="1000"/>
+                                    <integer value="1000"/>
+                                </visibilityPriorities>
+                                <customSpacing>
+                                    <real value="3.4028234663852886e+38"/>
+                                    <real value="3.4028234663852886e+38"/>
+                                    <real value="3.4028234663852886e+38"/>
+                                </customSpacing>
+                            </stackView>
+                            <scrollView wantsLayer="YES" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOS-IR-3Zv">
+                                <rect key="frame" x="20" y="20" width="410" height="230"/>
+                                <clipView key="contentView" id="Yot-r2-E3j">
+                                    <rect key="frame" x="1" y="1" width="408" height="228"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <collectionView id="vbi-Wh-sZu">
+                                            <rect key="frame" x="0.0" y="0.0" width="408" height="158"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumInteritemSpacing="10" minimumLineSpacing="10" id="4kv-Ve-chv">
+                                                <size key="itemSize" width="50" height="50"/>
+                                            </collectionViewFlowLayout>
+                                            <color key="primaryBackgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </collectionView>
+                                    </subviews>
+                                </clipView>
+                                <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="F8E-Qg-xkn">
+                                    <rect key="frame" x="1" y="144" width="233" height="15"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="UVM-6y-y1A">
+                                    <rect key="frame" x="234" y="1" width="15" height="143"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="aOS-IR-3Zv" secondAttribute="bottom" constant="20" symbolic="YES" id="K4Y-2M-R44"/>
+                            <constraint firstItem="aOS-IR-3Zv" firstAttribute="top" secondItem="dsh-fO-qpz" secondAttribute="bottom" constant="8" symbolic="YES" id="OLh-TX-iTr"/>
+                            <constraint firstItem="dsh-fO-qpz" firstAttribute="top" secondItem="3Df-mk-1kC" secondAttribute="top" constant="20" symbolic="YES" id="Slg-Q2-4Pb"/>
+                            <constraint firstItem="aOS-IR-3Zv" firstAttribute="leading" secondItem="3Df-mk-1kC" secondAttribute="leading" constant="20" symbolic="YES" id="jaf-yG-ehF"/>
+                            <constraint firstAttribute="trailing" secondItem="dsh-fO-qpz" secondAttribute="trailing" constant="20" symbolic="YES" id="k7u-wG-qkE"/>
+                            <constraint firstAttribute="trailing" secondItem="aOS-IR-3Zv" secondAttribute="trailing" constant="20" symbolic="YES" id="vgx-3V-efX"/>
+                            <constraint firstItem="dsh-fO-qpz" firstAttribute="leading" secondItem="3Df-mk-1kC" secondAttribute="leading" constant="20" symbolic="YES" id="y6f-MQ-nPs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="vbi-Wh-sZu" id="huC-qE-kpt"/>
+                        <outlet property="searchField" destination="Bj2-Wn-7yy" id="wke-Lf-FUn"/>
+                    </connections>
+                </viewController>
+                <customObject id="Gh6-tW-aod" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="760" y="7534"/>
+        </scene>
         <!--Window Controller-->
         <scene sceneID="oiS-g7-FKc">
             <objects>
@@ -2735,8 +2834,8 @@
                                                             <rect key="frame" x="37" y="0.0" width="97" height="28"/>
                                                             <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="KRA-99-w9e">
                                                                 <font key="font" metaFont="system"/>
-                                                                <date key="date" timeIntervalSinceReferenceDate="631510754.68373501">
-                                                                    <!--2021-01-05 03:39:14 +0000-->
+                                                                <date key="date" timeIntervalSinceReferenceDate="631518629.13298202">
+                                                                    <!--2021-01-05 05:50:29 +0000-->
                                                                 </date>
                                                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -2855,5 +2954,7 @@
     </scenes>
     <resources>
         <image name="NSActionTemplate" width="15" height="15"/>
+        <image name="NSAddTemplate" width="14" height="13"/>
+        <image name="NSMenuMixedStateTemplate" width="14" height="4"/>
     </resources>
 </document>
